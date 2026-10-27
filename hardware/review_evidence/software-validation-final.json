@@ -1,0 +1,61 @@
+{
+  "date_utc": "2026-10-07T17:24:16.350481+00:00",
+  "python": "3.14.4 (main, Apr  7 2026, 13:13:20) [Clang 21.0.0 (clang-2100.0.123.102)]",
+  "scope": "host behavior models, native CAD connectivity and source preservation; no physical results",
+  "commands": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "----------------------------------------------------------------------\nRan 60 tests in 0.039s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_passive_bypass_design.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"CAD connectivity and source preservation only\",\n  \"passed\": true,\n  \"contact_terminal_count\": 18,\n  \"problems\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "-m",
+        "py_compile",
+        "tools/build_passive_bypass_board.py",
+        "tools/build_passive_bypass_supervisor.py",
+        "tools/build_passive_bypass_supervisor_board.py",
+        "tools/check_passive_bypass_design.py",
+        "tools/passive_bypass_model.py",
+        "tests/test_passive_bypass_cad.py",
+        "tests/test_passive_bypass_model.py",
+        "tests/test_passive_bypass_supervisor_cad.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "physical_test_matrices": [
+    {
+      "file": "docs/passive-bypass-validation.csv",
+      "rows": 34,
+      "all_status": "NOT_RUN"
+    },
+    {
+      "file": "hardware/passive_bypass_supervisor_rev_a/bench_expectations.csv",
+      "rows": 33,
+      "all_status": "PENDING"
+    }
+  ],
+  "passed": true
+}

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1080" viewBox="0 0 1600 1080">
+  <defs>
+    <style>
+      .bg{fill:#f7f8fa}.panel{fill:#fff;stroke:#26364a;stroke-width:2}.ic{fill:#e9f1ff;stroke:#1558a6;stroke-width:3}.wire{fill:none;stroke:#334155;stroke-width:3}.bypass{stroke:#14804a}.inject{stroke:#b45309}.ctrl{stroke:#7c3aed}.pwr{stroke:#c81e1e}.gnd{stroke:#111827}.title{font:700 28px Arial;fill:#142033}.h{font:700 20px Arial;fill:#142033}.t{font:15px Arial;fill:#26364a}.small{font:13px Arial;fill:#334155}.pin{font:13px monospace;fill:#142033}.warn{fill:#fff1f2;stroke:#be123c;stroke-width:3}.note{fill:#fff8e7;stroke:#b45309;stroke-width:2}
+    </style>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8 z" fill="#334155"/></marker>
+  </defs>
+  <rect class="bg" x="0" y="0" width="1600" height="1080"/>
+  <text class="title" x="60" y="55">SN3257-Q1 two-adapter bench schematic</text>
+  <text class="t" x="60" y="82">Purpose: simulator-only evaluation of relay mapping. Original PCB and Nissan harness remain disconnected.</text>
+  <rect class="warn" x="1080" y="28" width="460" height="72" rx="10"/>
+  <text class="h" x="1110" y="58" fill="#9f1239">BENCH ONLY - NOT VEHICLE SAFE</text>
+  <text class="small" x="1110" y="82">Loss of SN3257 VDD opens every signal path; no passive NC bypass.</text>
+
+  <rect class="panel" x="50" y="125" width="740" height="820" rx="12"/>
+  <text class="h" x="80" y="165">Adapter A / U_SW1 - grouped K3 through K6</text>
+  <text class="small" x="80" y="190">One SEL changes all four channels. A = mechanical-relay NC/bypass; B = NO/DAC injection.</text>
+  <rect class="ic" x="330" y="240" width="220" height="560" rx="10"/>
+  <text class="h" x="375" y="275">SN3257QPWRQ1</text>
+  <text class="small" x="397" y="300">PW / TSSOP-16</text>
+  <text class="pin" x="345" y="335">1  SEL</text><text class="pin" x="465" y="335">16 VDD</text>
+  <text class="pin" x="345" y="385">2  S1A</text><text class="pin" x="465" y="385">15 EN_n</text>
+  <text class="pin" x="345" y="435">3  S1B</text><text class="pin" x="465" y="435">14 S4A</text>
+  <text class="pin" x="345" y="485">4  D1</text><text class="pin" x="465" y="485">13 S4B</text>
+  <text class="pin" x="345" y="535">5  S2A</text><text class="pin" x="465" y="535">12 D4</text>
+  <text class="pin" x="345" y="585">6  S2B</text><text class="pin" x="465" y="585">11 S3A</text>
+  <text class="pin" x="345" y="635">7  D2</text><text class="pin" x="465" y="635">10 S3B</text>
+  <text class="pin" x="345" y="685">8  GND</text><text class="pin" x="465" y="685">9  D3</text>
+
+  <path class="wire ctrl" d="M330 325 H230"/><text class="t" x="85" y="330">SW_GRP_SEL + 10k to GND</text>
+  <path class="wire ctrl" d="M550 375 H690"/><text class="t" x="585" y="365">SW_GRP_EN_N</text><text class="small" x="585" y="388">10k to GND</text>
+  <path class="wire pwr" d="M550 325 H690"/><text class="t" x="585" y="315">BENCH_5V</text>
+  <path class="wire gnd" d="M330 675 H250 V850"/><text class="t" x="178" y="875">BENCH_GND</text>
+  <rect class="note" x="575" y="735" width="170" height="62" rx="8"/><text class="small" x="590" y="760">100 nF X7R directly</text><text class="small" x="590" y="782">between pins 16 and 8</text>
+
+  <path class="wire bypass" d="M330 375 H85"/><text class="t" x="90" y="365">K3 NC: J4-13</text>
+  <path class="wire inject" d="M330 425 H85"/><text class="t" x="90" y="415">K3 NO: J5-10 VB</text>
+  <path class="wire" d="M330 475 H85"/><text class="t" x="90" y="465">K3 COM: J4-14</text>
+  <path class="wire bypass" d="M330 525 H85"/><text class="t" x="90" y="515">K4 NC: J4-12</text>
+  <path class="wire inject" d="M330 575 H85"/><text class="t" x="90" y="565">K4 NO: J5-11 VA</text>
+  <path class="wire" d="M330 625 H85"/><text class="t" x="90" y="615">K4 COM: J4-15</text>
+  <path class="wire bypass" d="M550 575 H760"/><text class="t" x="575" y="565">K5 NC: J4-11</text>
+  <path class="wire inject" d="M550 625 H760"/><text class="t" x="575" y="615">K5 NO: J6-8 VD</text>
+  <path class="wire" d="M550 675 H760"/><text class="t" x="575" y="665">K5 COM: J4-16</text>
+  <path class="wire bypass" d="M550 425 H760"/><text class="t" x="575" y="415">K6 NC: J4-10</text>
+  <path class="wire inject" d="M550 475 H760"/><text class="t" x="575" y="465">K6 NO: J6-9 VC</text>
+  <path class="wire" d="M550 525 H760"/><text class="t" x="575" y="515">K6 COM: J4-17</text>
+
+  <rect class="panel" x="820" y="125" width="730" height="820" rx="12"/>
+  <text class="h" x="850" y="165">Adapter B / U_SW2 - paired-only K7 and K8 experiment</text>
+  <text class="small" x="850" y="190">This circuit cannot reproduce independent J3-25 and J3-26 control. It tests only the paired-control hypothesis.</text>
+  <rect class="ic" x="1080" y="240" width="220" height="560" rx="10"/>
+  <text class="h" x="1125" y="275">SN3257QPWRQ1</text>
+  <text class="small" x="1147" y="300">PW / TSSOP-16</text>
+  <text class="pin" x="1095" y="335">1  SEL</text><text class="pin" x="1215" y="335">16 VDD</text>
+  <text class="pin" x="1095" y="385">2  S1A</text><text class="pin" x="1215" y="385">15 EN_n</text>
+  <text class="pin" x="1095" y="435">3  S1B</text><text class="pin" x="1215" y="435">14 S4A</text>
+  <text class="pin" x="1095" y="485">4  D1</text><text class="pin" x="1215" y="485">13 S4B</text>
+  <text class="pin" x="1095" y="535">5  S2A</text><text class="pin" x="1215" y="535">12 D4</text>
+  <text class="pin" x="1095" y="585">6  S2B</text><text class="pin" x="1215" y="585">11 S3A</text>
+  <text class="pin" x="1095" y="635">7  D2</text><text class="pin" x="1215" y="635">10 S3B</text>
+  <text class="pin" x="1095" y="685">8  GND</text><text class="pin" x="1215" y="685">9  D3</text>
+
+  <path class="wire ctrl" d="M1080 325 H920"/><text class="t" x="850" y="315">SW_PAIR_SEL</text><text class="small" x="850" y="338">10k to GND</text>
+  <path class="wire pwr" d="M1300 325 H1460"/><text class="t" x="1330" y="315">BENCH_5V</text>
+  <path class="wire ctrl" d="M1300 375 H1460"/><text class="t" x="1330" y="365">EN_N + 10k to GND</text>
+  <path class="wire gnd" d="M1080 675 H1010 V850"/><text class="t" x="930" y="875">BENCH_GND</text>
+  <path class="wire bypass" d="M1080 375 H850"/><text class="t" x="855" y="365">K7 NC: J4-9</text>
+  <path class="wire inject" d="M1080 425 H850"/><text class="t" x="855" y="415">K7 NO: J4-8</text>
+  <path class="wire" d="M1080 475 H850"/><text class="t" x="855" y="465">K7 COM: J4-18</text>
+  <path class="wire bypass" d="M1080 525 H850"/><text class="t" x="855" y="515">K8 NC: J4-8</text>
+  <path class="wire inject" d="M1080 575 H850"/><text class="t" x="855" y="565">K8 NO: J4-9</text>
+  <path class="wire" d="M1080 625 H850"/><text class="t" x="855" y="615">K8 COM: J4-19</text>
+  <rect class="note" x="1325" y="430" width="185" height="185" rx="8"/>
+  <text class="h" x="1350" y="462">Unused channels</text>
+  <text class="small" x="1345" y="492">Pins 9-14 all to GND</text>
+  <text class="small" x="1345" y="520">per TI guidance.</text>
+  <text class="small" x="1345" y="558">Channels 1 and 2 share</text>
+  <text class="small" x="1345" y="580">the same SEL and EN.</text>
+
+  <rect class="warn" x="50" y="970" width="1500" height="82" rx="10"/>
+  <text class="h" x="80" y="1002" fill="#9f1239">First power-up:</text>
+  <text class="t" x="240" y="1002">5.0 V supply limited to 20 mA, every source through 1 kohm, every D output into a 10 kohm simulator load.</text>
+  <text class="t" x="80" y="1030">Do not attach a Nissan harness, accelerator pedal, brake actuator, steering circuit, or vehicle power to this prototype.</text>
+</svg>

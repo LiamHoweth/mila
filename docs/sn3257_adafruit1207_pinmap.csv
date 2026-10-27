@@ -1,0 +1,33 @@
+adapter,header_pin,IC_pin_name,bench_net,notes
+A,1,SEL,SW_GRP_SEL,10k pulldown to GND
+A,2,S1A,K3_NC_J4_13,Bypass A
+A,3,S1B,K3_NO_DAC_J5_10_VB,Injected A
+A,4,D1,K3_COM_J4_14,Common A
+A,5,S2A,K4_NC_J4_12,Bypass B
+A,6,S2B,K4_NO_DAC_J5_11_VA,Injected B
+A,7,D2,K4_COM_J4_15,Common B
+A,8,GND,BENCH_GND,Ground
+A,9,D3,K5_COM_J4_16,Common C
+A,10,S3B,K5_NO_DAC_J6_8_VD,Injected C
+A,11,S3A,K5_NC_J4_11,Bypass C
+A,12,D4,K6_COM_J4_17,Common D
+A,13,S4B,K6_NO_DAC_J6_9_VC,Injected D
+A,14,S4A,K6_NC_J4_10,Bypass D
+A,15,EN_N,SW_GRP_EN_N,10k pulldown or tie to GND
+A,16,VDD,BENCH_5V,100nF to pin 8
+B,1,SEL,SW_PAIR_SEL,K7 and K8 change together; 10k pulldown
+B,2,S1A,K7_NC_J4_9,Bypass K7
+B,3,S1B,K7_NO_J4_8,Alternate K7
+B,4,D1,K7_COM_J4_18,Common K7
+B,5,S2A,K8_NC_J4_8,Bypass K8
+B,6,S2B,K8_NO_J4_9,Alternate K8
+B,7,D2,K8_COM_J4_19,Common K8
+B,8,GND,BENCH_GND,Ground
+B,9,D3,BENCH_GND,Unused channel grounded
+B,10,S3B,BENCH_GND,Unused channel grounded
+B,11,S3A,BENCH_GND,Unused channel grounded
+B,12,D4,BENCH_GND,Unused channel grounded
+B,13,S4B,BENCH_GND,Unused channel grounded
+B,14,S4A,BENCH_GND,Unused channel grounded
+B,15,EN_N,SW_PAIR_EN_N,10k pulldown or tie to GND
+B,16,VDD,BENCH_5V,100nF to pin 8

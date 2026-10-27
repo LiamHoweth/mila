@@ -1,0 +1,21 @@
+test_id,test,setup,stimulus,expected_result,screening_pass_fail,vehicle_connection
+T01,Existing relay continuity unpowered,Relay board isolated and unpowered; DMM continuity,Probe every J7 contact triplet,COM-NC closed and COM-NO open for K3-K8,Matches mapping with less than 1 ohm closed resistance and greater than 10 Mohm open,NO
+T02,Existing relay continuity energized,Current-limited correct coil supply after coil voltage verification,Energize one input at a time,COM-NO closed and COM-NC open,Matches mapping; no unintended relay changes,NO
+T03,Control grouping,Logic supply current limited,Toggle J4-23 then J3-25 then J3-26,J4-23 changes K3-K6 used contacts; J3-25 only K7; J3-26 only K8,Exact grouping confirmed,NO
+T04,K7/K8 intermediate-state topology,DMM only,Exercise 00 01 10 11 states,Record all J4-8 J4-9 J4-18 J4-19 connections,No shorts or forbidden states under defined simulated sources,NO
+T05,SN3257 basic A path,5.0 V supply at 20 mA limit; 0-5 V sources through 1k; 10k load,EN=0 SEL=0,SxA-Dx continuity and SxB isolated,Static output error provisional <=5 mV after accounting for source divider,NO
+T06,SN3257 basic B path,Same as T05,EN=0 SEL=1,SxB-Dx continuity and SxA isolated,Static output error provisional <=5 mV after accounting for source divider,NO
+T07,SN3257 disabled,Same as T05,EN=1 at both SEL states,D isolated from both sources,Leakage-derived output within calculated bound and no rail back-power,NO
+T08,MCU reset simulation,Switch powered; remove control drive,Float then ground controls through installed 10k pulls,A/bypass selected and EN active,Correct state reached monotonically without an unintended B selection,NO
+T09,5 V brownout,Signal <=3.6 V; ramp VDD 5 V to 0 V and back,Slow and fast ramps,Signal paths become high-Z below operating supply,No destructive current; recognize that bypass is lost,NO
+T10,Powered-off leakage,Device VDD=0; signal source 0-3.6 V through ammeter,Sweep source,High-Z with data-sheet-compatible leakage,Absolute leakage <=8 uA per pin,NO
+T11,Powered-off 5 V requirement review,No hardware stress test required,Compare requirement with data sheet,5 V exceeds powered-off recommended range,Automatic architecture FAIL if vehicle can present 5 V while board is off,NO
+T12,On-current limit,Powered device; electronic load and current limit,Ramp only to calculated operating current,All path currents remain below 25 mA with margin,Design target <=12.5 mA normal pending fault analysis,NO
+T13,Source/load impedance sweep,Programmable resistors and precision DMM,Test expected min/max impedance,Error follows calculated Ron and leakage bounds,Meets Nissan diagnostic tolerance once known,NO
+T14,Ground offset,Two isolated bench supplies; current limited,Apply planned ground offset range,No pin leaves 0-5.5 V absolute range,No clamp conduction and error within requirement,NO
+T15,Short to ground fault,1k or greater series current limiting,Short each simulated signal to GND one at a time,No damage or unexpected cross-channel drive,Current stays below 25 mA,NO
+T16,Short to bench 5 V fault,1k or greater series current limiting,Short each simulated signal to 5 V one at a time,No damage or unexpected cross-channel drive,Current stays below 25 mA,NO
+T17,Channel crosstalk,Scope and function generator within 0-5 V,Toggle one channel while monitoring others,No diagnostic-scale disturbance,Peak provisional disturbance <=10 mV pending real limit,NO
+T18,Power sequence permutations,All supplies current limited,Exercise logic-before-VDD signal-before-VDD and VDD-before-signal,No latch-up or back-power above screening bound,Unpowered rail current provisional <=100 uA,NO
+T19,Thermal screening,Environmental chamber only after electrical pass,Operate at project min/max bench temperature,Parameters remain within data-sheet limits,No out-of-range voltage/current or state change,NO
+T20,Vehicle gate review,Paper review only,None,Every unresolved requirement has measured evidence,Safety review approval required,NO

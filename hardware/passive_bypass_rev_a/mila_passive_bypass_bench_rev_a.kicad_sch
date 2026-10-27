@@ -1,0 +1,3090 @@
+(kicad_sch (version 20250114) (generator "eeschema") (uuid "05b202a7-192d-5cb5-8caa-9b8352187283") (paper "A2")
+(title_block (title "MiLa passive bypass: isolated BENCH ONLY") (date "2026-10-07") (rev "A") (comment 1 "Contacts: simulator 0-5 V, <=1 mA only; no vehicle") (comment 2 "External watchdog/supervisor and physical series enable required"))
+(lib_symbols
+(symbol "MiLa_Bench:Conn_01x02"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 0 -5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x02_1_1"
+			(rectangle
+				(start -1.27 1.27)
+				(end 1.27 -3.81)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "MiLa_Bench:Conn_01x04"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 5.08 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 0 -7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x04_1_1"
+			(rectangle
+				(start -1.27 3.81)
+				(end 1.27 -6.35)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "MiLa_Bench:Conn_01x06"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 0 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 0 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_1x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_01x06_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 1.27 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "MiLa_Bench:Conn_02x06_Odd_Even"
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "J"
+			(at 1.27 7.62 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x06_Odd_Even"
+			(at 1.27 -10.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "connector"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Connector*:*_2x??_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "Conn_02x06_Odd_Even_1_1"
+			(rectangle
+				(start -1.27 6.35)
+				(end 3.81 -8.89)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -1.27 5.207)
+				(end 0 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 2.667)
+				(end 0 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 0.127)
+				(end 0 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -2.413)
+				(end 0 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -4.953)
+				(end 0 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start -1.27 -7.493)
+				(end 0 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 5.207)
+				(end 2.54 4.953)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 2.667)
+				(end 2.54 2.413)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 0.127)
+				(end 2.54 -0.127)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -2.413)
+				(end 2.54 -2.667)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -4.953)
+				(end 2.54 -5.207)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(rectangle
+				(start 3.81 -7.493)
+				(end 2.54 -7.747)
+				(stroke
+					(width 0.1524)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin passive line
+				(at -5.08 5.08 0)
+				(length 3.81)
+				(name "Pin_1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 5.08 180)
+				(length 3.81)
+				(name "Pin_2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 2.54 0)
+				(length 3.81)
+				(name "Pin_3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 2.54 180)
+				(length 3.81)
+				(name "Pin_4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 0 0)
+				(length 3.81)
+				(name "Pin_5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 0 180)
+				(length 3.81)
+				(name "Pin_6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -2.54 0)
+				(length 3.81)
+				(name "Pin_7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -2.54 180)
+				(length 3.81)
+				(name "Pin_8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -5.08 0)
+				(length 3.81)
+				(name "Pin_9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -5.08 180)
+				(length 3.81)
+				(name "Pin_10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -5.08 -7.62 0)
+				(length 3.81)
+				(name "Pin_11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 -7.62 180)
+				(length 3.81)
+				(name "Pin_12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "MiLa_Bench:D"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 1.016)
+			(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "D"
+			(at 0 2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "D"
+			(at 0 -2.54 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "diode"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "D_0_1"
+			(polyline
+				(pts
+					(xy -1.27 1.27) (xy -1.27 -1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.27 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "D_1_1"
+			(pin passive line
+				(at -3.81 0 0)
+				(length 2.54)
+				(name "K"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 3.81 0 180)
+				(length 2.54)
+				(name "A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "MiLa_Bench:R"
+		(pin_numbers
+			(hide yes)
+		)
+		(pin_names
+			(offset 0)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "R"
+			(at 2.032 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at -1.778 0 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "R res resistor"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "R_*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_0_1"
+			(rectangle
+				(start -1.016 -2.54)
+				(end 1.016 2.54)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "R_1_1"
+			(pin passive line
+				(at 0 3.81 270)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -3.81 90)
+				(length 1.27)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "MiLa_Bench:G6K-2"
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(duplicate_pin_numbers_are_jumpers no)
+		(property "Reference" "K"
+			(at 16.51 3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "G6K-2"
+			(at 16.51 1.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Miniature 2-pole relay, Single-side Stable"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "Miniature Relay Dual Pole DPDT Omron"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "Relay*DPDT*Omron*G6K?2*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "G6K-2_0_0"
+			(text "+"
+				(at -9.271 2.921 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(symbol "G6K-2_0_1"
+			(rectangle
+				(start -15.24 5.08)
+				(end 15.24 -5.08)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+			(rectangle
+				(start -13.335 1.905)
+				(end -6.985 -1.905)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -12.7 -1.905) (xy -7.62 1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 5.08) (xy -10.16 1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -10.16 -5.08) (xy -10.16 -1.905)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -6.985 0) (xy -6.35 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -5.715 0) (xy -5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -4.445 0) (xy -3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -3.175 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 5.08) (xy -2.54 2.54) (xy -1.905 3.175) (xy -2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy -1.905 0) (xy -1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -0.635 0) (xy 0 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy -1.905 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -2.54) (xy 0 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.635 0) (xy 1.27 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.905 0) (xy 2.54 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 5.08) (xy 2.54 2.54) (xy 1.905 3.175) (xy 2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.175 0) (xy 3.81 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 4.445 0) (xy 5.08 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 5.715 0) (xy 6.35 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 6.985 0) (xy 7.62 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 7.62 5.08) (xy 7.62 2.54) (xy 8.255 3.175) (xy 7.62 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 8.255 0) (xy 8.89 0)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 8.255 3.81)
+				)
+				(stroke
+					(width 0.508)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 10.16 -2.54) (xy 10.16 -5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 12.7 5.08) (xy 12.7 2.54) (xy 12.065 3.175) (xy 12.7 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+		(symbol "G6K-2_1_1"
+			(pin passive line
+				(at -10.16 7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 12.7 7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 10.16 -7.62 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 7.62 7.62 270)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -10.16 -7.62 90)
+				(length 2.54)
+				(name ""
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+(symbol "MiLa_Bench:AO3400A"
+		
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 5.08 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 5.08 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "N-Channel MOSFET"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	
+(symbol "AO3400A_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.921 0.381) (xy 3.683 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+(symbol "AO3400A_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+)
+(symbol "MiLa_Bench:AO3401A"
+		
+		(property "Reference" "Q"
+			(at 5.08 1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3401A"
+			(at 5.08 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 5.08 -1.905 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf"
+			(at 5.08 -3.81 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Description" "-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "P-Channel MOSFET"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_fp_filters" "SOT?23*"
+			(at 0 0 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(embedded_fonts no)
+	
+(symbol "AO3401A_0_1"
+			(polyline
+				(pts
+					(xy 0.254 1.905) (xy 0.254 -1.905)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.254 0) (xy -2.54 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 2.286) (xy 0.762 1.27)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 0.508) (xy 0.762 -0.508)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0.762 -1.27) (xy 0.762 -2.286)
+				)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 1.651 0)
+				(radius 2.794)
+				(stroke
+					(width 0.254)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 2.54) (xy 2.54 1.778)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(circle
+				(center 2.54 1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(circle
+				(center 2.54 -1.778)
+				(radius 0.254)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type outline)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+		)
+(symbol "AO3401A_1_1"
+			(pin input line
+				(at -5.08 0 0)
+				(length 2.54)
+				(name "G"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 -5.08 90)
+				(length 2.54)
+				(name "S"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 2.54 5.08 270)
+				(length 2.54)
+				(name "D"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+)
+)
+(wire (pts (xy 69.85 62.23) (xy 69.85 58.42)) (stroke (width 0) (type default)) (uuid "41ebce0e-85c3-53cd-a766-6b3d5d7c121a"))
+(global_label "COIL_5V" (shape bidirectional) (at 69.85 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "bfd487a0-171c-58c2-a2d3-86ff8d928914"))
+(wire (pts (xy 77.47 62.23) (xy 77.47 58.42)) (stroke (width 0) (type default)) (uuid "54ea75a9-1483-59b6-b698-91f3eaa81779"))
+(global_label "J4_13" (shape bidirectional) (at 77.47 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "6f3a7462-5b4a-5805-a0a1-168f165c90c6"))
+(wire (pts (xy 80.01 77.47) (xy 80.01 81.28)) (stroke (width 0) (type default)) (uuid "f77a640a-aaf3-5df5-ae1c-2a570f1a1d80"))
+(global_label "J4_14" (shape bidirectional) (at 80.01 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "38c66578-2ee9-5c6d-afca-d51291ff1caf"))
+(wire (pts (xy 82.55 62.23) (xy 82.55 58.42)) (stroke (width 0) (type default)) (uuid "db6f8e9f-c387-5d42-af86-45ba15e56994"))
+(global_label "J5_10" (shape bidirectional) (at 82.55 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "0a27e1a3-7442-5454-a850-24420a889899"))
+(wire (pts (xy 92.71 62.23) (xy 92.71 58.42)) (stroke (width 0) (type default)) (uuid "20a2875d-4af3-56d2-861e-506e46e94850"))
+(global_label "J5_11" (shape bidirectional) (at 92.71 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "f3b86bab-5dc6-52ea-a5b6-cdbe044318fb"))
+(wire (pts (xy 90.17 77.47) (xy 90.17 81.28)) (stroke (width 0) (type default)) (uuid "0502788d-65b0-5309-adff-1bb635e9925e"))
+(global_label "J4_15" (shape bidirectional) (at 90.17 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "76969f4c-f5f7-5c17-a2b7-fb9fd48e1eb0"))
+(wire (pts (xy 87.63 62.23) (xy 87.63 58.42)) (stroke (width 0) (type default)) (uuid "e642f650-4b62-504d-b821-ee42915e71a7"))
+(global_label "J4_12" (shape bidirectional) (at 87.63 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "7c36b3ca-ba65-556c-ab12-c07707c074c4"))
+(wire (pts (xy 69.85 77.47) (xy 69.85 81.28)) (stroke (width 0) (type default)) (uuid "f6dd6665-16b5-56e4-ba61-f91165c7c4c1"))
+(global_label "COIL_R1" (shape bidirectional) (at 69.85 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "5cafcb78-c930-587c-999c-7b03be0eadb1"))
+(symbol (lib_id "MiLa_Bench:G6K-2") (at 80.01 69.85 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ef08c831-238b-566c-b7b0-d2b592811a36")
+(property "Reference" "RLY1" (at 102.01 67.85 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "G6K-2P-Y DC5" (at 102.01 71.85 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:Relay_G6K_2P_Y_corrected" (at 80.01 69.85 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" (at 80.01 69.85 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "4e8b6589-48d3-57f2-8987-12362503d4ae"))
+(pin "2" (uuid "09977d05-3eca-5d0e-81c7-c36c1efe4d12"))
+(pin "3" (uuid "af15d7d3-3f55-5877-be23-826013ac61f8"))
+(pin "4" (uuid "a26e204b-092f-5068-af8c-0446ee2af6dd"))
+(pin "5" (uuid "3f171e7e-1469-5c61-a44e-0b6e8dcb4c6f"))
+(pin "6" (uuid "424d5a44-dbe1-5134-80c4-bf51cb629b26"))
+(pin "7" (uuid "a1d2628c-dddd-5117-bb85-943b1e2a3b0d"))
+(pin "8" (uuid "cd69b4c7-36e1-57ba-8ee9-dbc4cde6f5d7"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RLY1") (unit 1)))))
+(wire (pts (xy 64.77 144.78) (xy 60.96 144.78)) (stroke (width 0) (type default)) (uuid "bb2f27a2-ec66-5ec3-aec8-c0803f9f0bbd"))
+(global_label "G_R1" (shape bidirectional) (at 60.96 144.78 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "bf3111f9-53ab-5d22-8902-0c1add5d06c9"))
+(wire (pts (xy 72.39 149.86) (xy 72.39 153.67)) (stroke (width 0) (type default)) (uuid "00d6e4eb-642a-57da-9e16-3cddd612557b"))
+(global_label "GND" (shape bidirectional) (at 72.39 153.67 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "95b6231b-835c-5704-ae1c-9992cd3eb46b"))
+(wire (pts (xy 72.39 139.7) (xy 72.39 135.89)) (stroke (width 0) (type default)) (uuid "323370cd-b943-565e-82b6-185912700169"))
+(global_label "COIL_R1" (shape bidirectional) (at 72.39 135.89 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "3a7e6f73-79b4-5619-b883-3b97dddca48e"))
+(symbol (lib_id "MiLa_Bench:AO3400A") (at 69.85 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "015f834d-69bb-5049-9652-69179f9583e8")
+(property "Reference" "Q1" (at 74.93 142.875 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "AO3400A" (at 74.93 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:SOT-23" (at 69.85 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.aosmd.com/res/data_sheets/AO3400A.pdf" (at 69.85 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "008bffa0-266a-5561-8fbb-b75f92e65b8c"))
+(pin "2" (uuid "1c733023-ab05-5a01-98fe-263132556adc"))
+(pin "3" (uuid "bd746668-643f-5813-83e8-2e0aeab5c15a"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "Q1") (unit 1)))))
+(wire (pts (xy 44.45 140.97) (xy 44.45 137.16)) (stroke (width 0) (type default)) (uuid "2c8a08d9-e972-58d8-a4ea-90c584c21ffa"))
+(global_label "REQ_GROUP" (shape bidirectional) (at 44.45 137.16 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "9def06c2-aef8-5a3f-a5b8-eaf8b1860fab"))
+(wire (pts (xy 44.45 148.59) (xy 44.45 152.4)) (stroke (width 0) (type default)) (uuid "d244468a-1344-5477-b716-1b89f2d970b9"))
+(global_label "G_R1" (shape bidirectional) (at 44.45 152.4 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "e019ecac-6fd5-5e79-ad03-338decfc0ab9"))
+(symbol (lib_id "MiLa_Bench:R") (at 44.45 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "ea3d3a52-5a4e-5b7c-8e1e-109cf59c68f5")
+(property "Reference" "RG1" (at 48.26 143.51 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "330R" (at 48.26 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 44.45 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 44.45 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "9a03470c-e8d6-5154-9f2c-e5f0771b28d9"))
+(pin "2" (uuid "eb300714-f261-529a-b9ef-e2d1356d67ab"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RG1") (unit 1)))))
+(wire (pts (xy 95.25 140.97) (xy 95.25 137.16)) (stroke (width 0) (type default)) (uuid "d5fc38cc-6502-5f6c-b18f-6edfdef77816"))
+(global_label "G_R1" (shape bidirectional) (at 95.25 137.16 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "bdfea226-f4d5-58b3-a312-6e10ed244f9f"))
+(wire (pts (xy 95.25 148.59) (xy 95.25 152.4)) (stroke (width 0) (type default)) (uuid "6716f945-6abc-522e-9834-e7baee3104a1"))
+(global_label "GND" (shape bidirectional) (at 95.25 152.4 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "97727d7d-ca98-5d4b-ba01-6e1f1fe59f92"))
+(symbol (lib_id "MiLa_Bench:R") (at 95.25 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "d261cde3-4cdf-5d0f-a826-aa16bbcd25e4")
+(property "Reference" "RPD1" (at 99.06 143.51 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "10k" (at 99.06 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 95.25 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 95.25 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "7acafbdc-bcbe-5b57-85fe-d968c8767e89"))
+(pin "2" (uuid "baf8d107-ab65-51d5-8353-8f8d34c078ab"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RPD1") (unit 1)))))
+(wire (pts (xy 91.44 175.26) (xy 87.63 175.26)) (stroke (width 0) (type default)) (uuid "64875de8-7ac4-5783-bede-84c7f887615e"))
+(global_label "COIL_5V" (shape bidirectional) (at 87.63 175.26 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "96373ae7-b947-5885-8c42-3b5be7ec12f0"))
+(wire (pts (xy 99.06 175.26) (xy 102.87 175.26)) (stroke (width 0) (type default)) (uuid "e232d13c-aff8-51a8-8cfd-405dd6d5a8ad"))
+(global_label "COIL_R1" (shape bidirectional) (at 102.87 175.26 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "386b5b4b-ee2b-5b2d-b08f-41e68246613c"))
+(symbol (lib_id "MiLa_Bench:D") (at 95.25 175.26 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "30743c69-0ac8-53ec-93d5-509d68ec77f4")
+(property "Reference" "D1" (at 95.25 170.18 0) (effects (font (size 1.3 1.3))  ))
+(property "Value" "1N4148W-E3-08" (at 95.25 172.72 0) (effects (font (size 1.3 1.3))  ))
+(property "Footprint" "MiLa_Bench:D_SOD123" (at 95.25 175.26 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.vishay.com/docs/86356/1n4148w.pdf" (at 95.25 175.26 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "23cec8fa-a946-591f-b3bc-4bda23f900c0"))
+(pin "2" (uuid "09cab312-14b2-5341-b7ee-17ea1a549b22"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "D1") (unit 1)))))
+(wire (pts (xy 194.31 62.23) (xy 194.31 58.42)) (stroke (width 0) (type default)) (uuid "2d7ba1e7-488f-5e26-8099-de511961548e"))
+(global_label "COIL_5V" (shape bidirectional) (at 194.31 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "258d01c9-ae0d-5b44-9e6c-c2a62c24783d"))
+(wire (pts (xy 201.93 62.23) (xy 201.93 58.42)) (stroke (width 0) (type default)) (uuid "e48e02e6-efdf-56f5-b5fd-8f80467019f5"))
+(global_label "J4_11" (shape bidirectional) (at 201.93 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "8042b2a5-6713-5076-b97a-79273067f27b"))
+(wire (pts (xy 204.47 77.47) (xy 204.47 81.28)) (stroke (width 0) (type default)) (uuid "d3b33ef1-a419-5e44-97cb-3eee523f211f"))
+(global_label "J4_16" (shape bidirectional) (at 204.47 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "57416866-e52a-5545-bd85-6150e9505579"))
+(wire (pts (xy 207.01 62.23) (xy 207.01 58.42)) (stroke (width 0) (type default)) (uuid "9b8de502-bad8-586b-ae3f-0a65505cb6db"))
+(global_label "J6_8" (shape bidirectional) (at 207.01 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "ea828512-f3c1-5528-ab75-21473e83a721"))
+(wire (pts (xy 217.17 62.23) (xy 217.17 58.42)) (stroke (width 0) (type default)) (uuid "d216f779-eb8e-5118-884c-30e898341883"))
+(global_label "J6_9" (shape bidirectional) (at 217.17 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "bc40e2c8-f1f6-5cc5-8243-2c7c682f03b0"))
+(wire (pts (xy 214.63 77.47) (xy 214.63 81.28)) (stroke (width 0) (type default)) (uuid "46e38207-565c-5106-9bd9-1df80cf5588f"))
+(global_label "J4_17" (shape bidirectional) (at 214.63 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "68d9286a-5bf8-5e0a-9dad-471d395be928"))
+(wire (pts (xy 212.09 62.23) (xy 212.09 58.42)) (stroke (width 0) (type default)) (uuid "a93336f4-111a-57db-bd6d-d8ce327bef2c"))
+(global_label "J4_10" (shape bidirectional) (at 212.09 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "fa960033-599f-5bb1-b605-d57c8409edb1"))
+(wire (pts (xy 194.31 77.47) (xy 194.31 81.28)) (stroke (width 0) (type default)) (uuid "7f60af91-59bb-5e14-ad41-4475ea695cd8"))
+(global_label "COIL_R2" (shape bidirectional) (at 194.31 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "c05cf036-2e39-53c3-beea-190a10b5f3db"))
+(symbol (lib_id "MiLa_Bench:G6K-2") (at 204.47 69.85 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "4a5f1348-00f6-57f1-8102-a96a04ce6068")
+(property "Reference" "RLY2" (at 226.47 67.85 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "G6K-2P-Y DC5" (at 226.47 71.85 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:Relay_G6K_2P_Y_corrected" (at 204.47 69.85 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" (at 204.47 69.85 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "fa5c8627-b478-5fbc-b329-dce8d48206d4"))
+(pin "2" (uuid "719b5f3b-6afd-5a15-8d76-11a842554aab"))
+(pin "3" (uuid "7a9fabf9-9c13-5db0-9e19-eb6545568953"))
+(pin "4" (uuid "ab7cf99f-ad3f-5959-8554-ff03248c32a3"))
+(pin "5" (uuid "f0ef6fcb-00e6-5970-ab7f-1a84d1913394"))
+(pin "6" (uuid "ea87c38b-df44-5f61-861d-5f237fcc5ed0"))
+(pin "7" (uuid "2ef3c1ab-0ad9-554f-95cc-f922ac04706f"))
+(pin "8" (uuid "32c67c12-d710-5b3a-acee-4327e92d1c48"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RLY2") (unit 1)))))
+(wire (pts (xy 190.5 144.78) (xy 186.69 144.78)) (stroke (width 0) (type default)) (uuid "0a98bb78-7592-523d-9103-54c8181741e2"))
+(global_label "G_R2" (shape bidirectional) (at 186.69 144.78 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "63101e82-7341-5a33-be5e-12c80bece1c0"))
+(wire (pts (xy 198.12 149.86) (xy 198.12 153.67)) (stroke (width 0) (type default)) (uuid "069daf33-89ac-5483-96af-f51523352b87"))
+(global_label "GND" (shape bidirectional) (at 198.12 153.67 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "89f30a8a-7df5-5ab7-a335-b0491c05b471"))
+(wire (pts (xy 198.12 139.7) (xy 198.12 135.89)) (stroke (width 0) (type default)) (uuid "12189de9-9495-5772-9c7c-2273641a2f30"))
+(global_label "COIL_R2" (shape bidirectional) (at 198.12 135.89 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "a782f813-f7d9-5892-90e2-27b4e6ee4882"))
+(symbol (lib_id "MiLa_Bench:AO3400A") (at 195.58 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "3b11003c-9e06-5b0c-8901-1b6925e251a4")
+(property "Reference" "Q2" (at 200.66 142.875 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "AO3400A" (at 200.66 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:SOT-23" (at 195.58 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.aosmd.com/res/data_sheets/AO3400A.pdf" (at 195.58 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "b89d1ed6-b301-513e-9353-1ab5d4533750"))
+(pin "2" (uuid "f166086d-1a7d-5077-ab26-b70887db6bf2"))
+(pin "3" (uuid "29ac546c-6caa-5ab9-a36d-db7fb68bad2e"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "Q2") (unit 1)))))
+(wire (pts (xy 170.18 140.97) (xy 170.18 137.16)) (stroke (width 0) (type default)) (uuid "157ec5a8-14c1-520b-8df7-97d7ba557b25"))
+(global_label "REQ_GROUP" (shape bidirectional) (at 170.18 137.16 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "bf4a41f8-16b9-5932-8409-d20be843f9a5"))
+(wire (pts (xy 170.18 148.59) (xy 170.18 152.4)) (stroke (width 0) (type default)) (uuid "5108029f-0072-5aa5-bf9e-9a576945b1fa"))
+(global_label "G_R2" (shape bidirectional) (at 170.18 152.4 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "c2851711-4a8c-5d31-9bd9-899e2b407346"))
+(symbol (lib_id "MiLa_Bench:R") (at 170.18 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "d449a439-ec60-5fa0-9270-2aaa938cc833")
+(property "Reference" "RG2" (at 173.99 143.51 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "330R" (at 173.99 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 170.18 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 170.18 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "5243d6cb-31de-55b7-ac24-d72f0de76725"))
+(pin "2" (uuid "029cb119-243a-57a0-a5c3-a5698bcb01d2"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RG2") (unit 1)))))
+(wire (pts (xy 219.71 140.97) (xy 219.71 137.16)) (stroke (width 0) (type default)) (uuid "f10bbc6f-f223-567f-abd8-b86af8a40f9c"))
+(global_label "G_R2" (shape bidirectional) (at 219.71 137.16 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d499dca4-6d4b-560a-a0f2-80e64205069a"))
+(wire (pts (xy 219.71 148.59) (xy 219.71 152.4)) (stroke (width 0) (type default)) (uuid "c930b7ac-dd2b-5ebb-87ea-06c7f933afa4"))
+(global_label "GND" (shape bidirectional) (at 219.71 152.4 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "7cec899c-f6b7-5be3-a62a-07d6862b38e2"))
+(symbol (lib_id "MiLa_Bench:R") (at 219.71 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "c03192f8-3c1d-58d5-a316-3e20fdebf4d5")
+(property "Reference" "RPD2" (at 223.52 143.51 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "10k" (at 223.52 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 219.71 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 219.71 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "3f6fc00d-84d6-5efc-bc7e-91c86fa7ce70"))
+(pin "2" (uuid "1ac88330-ab40-513c-a165-97f395cc176d"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RPD2") (unit 1)))))
+(wire (pts (xy 215.9 175.26) (xy 212.09 175.26)) (stroke (width 0) (type default)) (uuid "72b616e7-480b-5f2f-986f-4ff69cd155a1"))
+(global_label "COIL_5V" (shape bidirectional) (at 212.09 175.26 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "7ba283f8-e054-5fe5-a03d-c082938bbbc6"))
+(wire (pts (xy 223.52 175.26) (xy 227.33 175.26)) (stroke (width 0) (type default)) (uuid "7da97c6a-c2f4-55e9-8fef-b3899619e420"))
+(global_label "COIL_R2" (shape bidirectional) (at 227.33 175.26 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "38500198-188c-5515-b8f9-22f324a52617"))
+(symbol (lib_id "MiLa_Bench:D") (at 219.71 175.26 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "d32e86b6-d469-512b-bb53-4b13d2d417a7")
+(property "Reference" "D2" (at 219.71 170.18 0) (effects (font (size 1.3 1.3))  ))
+(property "Value" "1N4148W-E3-08" (at 219.71 172.72 0) (effects (font (size 1.3 1.3))  ))
+(property "Footprint" "MiLa_Bench:D_SOD123" (at 219.71 175.26 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.vishay.com/docs/86356/1n4148w.pdf" (at 219.71 175.26 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "c2f69484-d5f1-5711-bebd-d3254e850432"))
+(pin "2" (uuid "7454e0eb-d97c-5f24-acd2-faf9c92c0210"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "D2") (unit 1)))))
+(wire (pts (xy 320.04 62.23) (xy 320.04 58.42)) (stroke (width 0) (type default)) (uuid "882e99f4-2501-5964-a749-aa6be1922358"))
+(global_label "COIL_5V" (shape bidirectional) (at 320.04 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "9cefcba6-c461-52df-a0d5-4e5b29bd4bc6"))
+(wire (pts (xy 327.66 62.23) (xy 327.66 58.42)) (stroke (width 0) (type default)) (uuid "0cc4420d-c928-50ff-b84c-36a49bfd0b71"))
+(global_label "J4_9" (shape bidirectional) (at 327.66 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "40295264-0260-52cb-8504-cccca9120a30"))
+(wire (pts (xy 330.2 77.47) (xy 330.2 81.28)) (stroke (width 0) (type default)) (uuid "85718bfd-0624-5110-9390-c5202aa49362"))
+(global_label "J4_18" (shape bidirectional) (at 330.2 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "4912e039-2ddb-5d2b-998d-50359e877b4d"))
+(wire (pts (xy 332.74 62.23) (xy 332.74 58.42)) (stroke (width 0) (type default)) (uuid "27637154-89fd-50b9-8fe6-e26e15276a46"))
+(global_label "J4_8" (shape bidirectional) (at 332.74 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d5d69522-1d01-5ebb-b8dc-a19f06b686d0"))
+(no_connect (at 342.9 62.23) (uuid "d9e406d6-b85f-5a7b-97e2-9f2acb4b1416"))
+(no_connect (at 340.36 77.47) (uuid "49ebf7d5-edd5-569d-9079-7118d41e65ed"))
+(no_connect (at 337.82 62.23) (uuid "0cb53a8e-e79e-53e3-9863-751731d58564"))
+(wire (pts (xy 320.04 77.47) (xy 320.04 81.28)) (stroke (width 0) (type default)) (uuid "38f426f4-b822-5f4f-8b19-08977c70b9a9"))
+(global_label "COIL_R3" (shape bidirectional) (at 320.04 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "980d3201-4c0b-571a-85d5-89c805c7dc0e"))
+(symbol (lib_id "MiLa_Bench:G6K-2") (at 330.2 69.85 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "0a0675f5-f9a8-54a9-9e98-a93cd2d9d6da")
+(property "Reference" "RLY3" (at 352.2 67.85 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "G6K-2P-Y DC5" (at 352.2 71.85 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:Relay_G6K_2P_Y_corrected" (at 330.2 69.85 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" (at 330.2 69.85 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "ae9005cd-e92e-5212-9526-d47d44980937"))
+(pin "2" (uuid "4b1b9c75-0cd9-559a-8419-3f2ec15cb984"))
+(pin "3" (uuid "1040ca0b-d022-5efb-a8be-dc2d99e20a2e"))
+(pin "4" (uuid "1069e66e-7603-5060-9c09-f15c19d9a44d"))
+(pin "5" (uuid "3ebad30a-aaa0-5ad4-b917-e8f1c0877470"))
+(pin "6" (uuid "2c864ce9-0f1a-5687-8a93-c242080ce8bb"))
+(pin "7" (uuid "db24c887-2af9-5cc8-a9d5-dc9540678f88"))
+(pin "8" (uuid "d4f8ea77-510a-5cc7-a641-3103f34dde90"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RLY3") (unit 1)))))
+(wire (pts (xy 314.96 144.78) (xy 311.15 144.78)) (stroke (width 0) (type default)) (uuid "7cd0e3e4-5fde-5ecc-89de-cd5605a18832"))
+(global_label "G_R3" (shape bidirectional) (at 311.15 144.78 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "21a3dbd6-23ff-52c8-80ee-96a0e77858ef"))
+(wire (pts (xy 322.58 149.86) (xy 322.58 153.67)) (stroke (width 0) (type default)) (uuid "dfd16dec-4df6-5c87-978b-d58ae978c50d"))
+(global_label "GND" (shape bidirectional) (at 322.58 153.67 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "77e969f1-7b25-53b8-92cf-465b18b32fc2"))
+(wire (pts (xy 322.58 139.7) (xy 322.58 135.89)) (stroke (width 0) (type default)) (uuid "bfae210b-37a7-5899-aa11-c3df7fe84154"))
+(global_label "COIL_R3" (shape bidirectional) (at 322.58 135.89 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "9690cd64-e075-5c16-b5e4-46443e7bfd3a"))
+(symbol (lib_id "MiLa_Bench:AO3400A") (at 320.04 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "028e3a32-2fa0-5814-a2a1-9fcbcae47538")
+(property "Reference" "Q3" (at 325.12 142.875 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "AO3400A" (at 325.12 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:SOT-23" (at 320.04 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.aosmd.com/res/data_sheets/AO3400A.pdf" (at 320.04 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "5af73918-79d6-5455-8922-d442b2d81731"))
+(pin "2" (uuid "1e77c9e0-ee41-5d71-a0ef-1f01d4178a69"))
+(pin "3" (uuid "a2e8fbbb-5649-5397-9170-fbb8897afa31"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "Q3") (unit 1)))))
+(wire (pts (xy 294.64 140.97) (xy 294.64 137.16)) (stroke (width 0) (type default)) (uuid "4b1602d5-46f4-545b-bb2a-ded2ab726d00"))
+(global_label "REQ_K7" (shape bidirectional) (at 294.64 137.16 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d852434d-9ed4-5371-b6f8-4039828514a1"))
+(wire (pts (xy 294.64 148.59) (xy 294.64 152.4)) (stroke (width 0) (type default)) (uuid "9552b107-9cb4-5b3c-83c1-71f6e671f0e0"))
+(global_label "G_R3" (shape bidirectional) (at 294.64 152.4 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "2c1e5ef7-a5e6-59fb-9192-7a2f202b33a6"))
+(symbol (lib_id "MiLa_Bench:R") (at 294.64 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1648ea03-8060-504d-97cd-8b32288a9ffd")
+(property "Reference" "RG3" (at 298.45 143.51 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "330R" (at 298.45 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 294.64 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 294.64 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "1231bd68-de94-59a1-a700-f04458462521"))
+(pin "2" (uuid "1fdf3875-979f-512b-bfd3-0a1c8d347da6"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RG3") (unit 1)))))
+(wire (pts (xy 345.44 140.97) (xy 345.44 137.16)) (stroke (width 0) (type default)) (uuid "ef98508a-e3e2-592b-aecf-cd8992c5249f"))
+(global_label "G_R3" (shape bidirectional) (at 345.44 137.16 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "ed0d5ae1-80df-5bd1-91a9-99b3fa570171"))
+(wire (pts (xy 345.44 148.59) (xy 345.44 152.4)) (stroke (width 0) (type default)) (uuid "e8eda01a-dfba-5f7d-b535-742b530aa656"))
+(global_label "GND" (shape bidirectional) (at 345.44 152.4 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "b3808c65-ae3a-5672-b8c4-759531c07af7"))
+(symbol (lib_id "MiLa_Bench:R") (at 345.44 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "662ef723-80d2-5505-b222-1b7d68d68727")
+(property "Reference" "RPD3" (at 349.25 143.51 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "10k" (at 349.25 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 345.44 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 345.44 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "fc870ba4-0e41-5b26-98c9-998754f68d2a"))
+(pin "2" (uuid "5b06578b-8591-5bbe-9a8d-2db5047fbb9a"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RPD3") (unit 1)))))
+(wire (pts (xy 341.63 175.26) (xy 337.82 175.26)) (stroke (width 0) (type default)) (uuid "68ddccae-2d19-5ffb-bc09-2b9e2ecfcf1c"))
+(global_label "COIL_5V" (shape bidirectional) (at 337.82 175.26 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "f0a524ca-c025-56f0-8178-1fc9d520a682"))
+(wire (pts (xy 349.25 175.26) (xy 353.06 175.26)) (stroke (width 0) (type default)) (uuid "8a3328c5-e5ea-54c6-8aa6-042341167c9a"))
+(global_label "COIL_R3" (shape bidirectional) (at 353.06 175.26 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "25288cd3-2e27-57ad-9693-710d7f7152b8"))
+(symbol (lib_id "MiLa_Bench:D") (at 345.44 175.26 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "fd57ceea-681a-5505-818a-8ae45156c879")
+(property "Reference" "D3" (at 345.44 170.18 0) (effects (font (size 1.3 1.3))  ))
+(property "Value" "1N4148W-E3-08" (at 345.44 172.72 0) (effects (font (size 1.3 1.3))  ))
+(property "Footprint" "MiLa_Bench:D_SOD123" (at 345.44 175.26 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.vishay.com/docs/86356/1n4148w.pdf" (at 345.44 175.26 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "bbbfd369-ea90-536d-833b-3f658ef29186"))
+(pin "2" (uuid "4aa05348-d785-58c4-8f12-3fce1d79d1aa"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "D3") (unit 1)))))
+(wire (pts (xy 444.5 62.23) (xy 444.5 58.42)) (stroke (width 0) (type default)) (uuid "3cfb626a-db94-5f5f-8de4-570646062b15"))
+(global_label "COIL_5V" (shape bidirectional) (at 444.5 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "9c7dde4a-f2c7-5767-a4e6-ef638debfd75"))
+(wire (pts (xy 452.12 62.23) (xy 452.12 58.42)) (stroke (width 0) (type default)) (uuid "5f3c4327-7680-5c12-97a4-45a24d81302c"))
+(global_label "J4_8" (shape bidirectional) (at 452.12 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "e96d7cac-274d-55c8-a0cc-0615ac266154"))
+(wire (pts (xy 454.66 77.47) (xy 454.66 81.28)) (stroke (width 0) (type default)) (uuid "5f3a8732-193f-58d1-b33e-ec16c99bd9fa"))
+(global_label "J4_19" (shape bidirectional) (at 454.66 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "97f22c61-32c2-54ff-909b-eb4f82a4ca20"))
+(wire (pts (xy 457.2 62.23) (xy 457.2 58.42)) (stroke (width 0) (type default)) (uuid "ec55cda0-3df0-52b3-ab1f-5c2228fe2181"))
+(global_label "J4_9" (shape bidirectional) (at 457.2 58.42 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "ea08ce56-e969-58cf-8fb3-3556507f8f20"))
+(no_connect (at 467.36 62.23) (uuid "4569905b-ef62-5f32-b2d2-2d0e21ee0c16"))
+(no_connect (at 464.82 77.47) (uuid "57e1ffe9-03de-5828-a0d9-3c2838b43b07"))
+(no_connect (at 462.28 62.23) (uuid "5f946804-d182-5ef6-948d-5c403f38ba6e"))
+(wire (pts (xy 444.5 77.47) (xy 444.5 81.28)) (stroke (width 0) (type default)) (uuid "4c7c3493-7316-52be-9bde-4581163ed0ef"))
+(global_label "COIL_R4" (shape bidirectional) (at 444.5 81.28 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "ad993e2a-3e47-55dd-9686-3b4da6728e3d"))
+(symbol (lib_id "MiLa_Bench:G6K-2") (at 454.66 69.85 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "3700e6c7-165b-52bf-95bf-d4e5da7ce957")
+(property "Reference" "RLY4" (at 476.66 67.85 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "G6K-2P-Y DC5" (at 476.66 71.85 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:Relay_G6K_2P_Y_corrected" (at 454.66 69.85 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf" (at 454.66 69.85 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "ef37b869-a5fd-5409-a680-b7fc0609d7f6"))
+(pin "2" (uuid "0a1cd80e-b7f3-58c0-9c6e-35f026131388"))
+(pin "3" (uuid "9e2e7259-14b8-5f78-84b6-78896aeadcc6"))
+(pin "4" (uuid "be6b3d4b-0cf0-5656-ad8a-4ff9d7b5dbca"))
+(pin "5" (uuid "0b0c29e1-b70c-5b7d-8030-633bacefeb0a"))
+(pin "6" (uuid "b3a31f02-1f51-5944-a635-440684e03e22"))
+(pin "7" (uuid "bab2c99a-7d1a-5e79-a6ac-c17c2611bde0"))
+(pin "8" (uuid "1eb93478-d3a8-51c2-a4bb-38469db014a9"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RLY4") (unit 1)))))
+(wire (pts (xy 439.42 144.78) (xy 435.61 144.78)) (stroke (width 0) (type default)) (uuid "11a976c0-7084-5d96-b0f2-952a046640ef"))
+(global_label "G_R4" (shape bidirectional) (at 435.61 144.78 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "e25bc1bc-ef33-5792-9a54-4f0648274c44"))
+(wire (pts (xy 447.04 149.86) (xy 447.04 153.67)) (stroke (width 0) (type default)) (uuid "3229d73f-3c08-5fc5-b48e-a8d36f9dd457"))
+(global_label "GND" (shape bidirectional) (at 447.04 153.67 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "54e1d54c-ae82-576a-96e6-37fdb5a3f46a"))
+(wire (pts (xy 447.04 139.7) (xy 447.04 135.89)) (stroke (width 0) (type default)) (uuid "1c83b2b4-8ed4-5827-99be-9302017742f7"))
+(global_label "COIL_R4" (shape bidirectional) (at 447.04 135.89 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "f2866474-11b5-5a99-bfe6-9f12aba3913d"))
+(symbol (lib_id "MiLa_Bench:AO3400A") (at 444.5 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "4038b64e-588e-5788-b72c-28e50c02e4c3")
+(property "Reference" "Q4" (at 449.58 142.875 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "AO3400A" (at 449.58 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:SOT-23" (at 444.5 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.aosmd.com/res/data_sheets/AO3400A.pdf" (at 444.5 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "2e5a7228-28e8-51f9-af40-4ada7cf912c9"))
+(pin "2" (uuid "abffc709-a634-5d66-88ba-7b8834751538"))
+(pin "3" (uuid "2befd98f-1423-5478-b068-fe962030d0d2"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "Q4") (unit 1)))))
+(wire (pts (xy 420.37 140.97) (xy 420.37 137.16)) (stroke (width 0) (type default)) (uuid "7509f81a-361d-500a-836e-4a23a85489e6"))
+(global_label "REQ_K8" (shape bidirectional) (at 420.37 137.16 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "e1c0c620-56f9-5beb-85b6-4d75b8f75429"))
+(wire (pts (xy 420.37 148.59) (xy 420.37 152.4)) (stroke (width 0) (type default)) (uuid "39fddfb6-4bfd-5d80-8249-85d4e9a27cd4"))
+(global_label "G_R4" (shape bidirectional) (at 420.37 152.4 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "1cb942e7-3a6c-5a9e-baca-066f09f64bd7"))
+(symbol (lib_id "MiLa_Bench:R") (at 420.37 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "b07e922a-7ea9-53f4-b2d4-2f064d99da4c")
+(property "Reference" "RG4" (at 424.18 143.51 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "330R" (at 424.18 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 420.37 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 420.37 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "cc0f9b2e-b580-5c29-9710-ca0d1637140e"))
+(pin "2" (uuid "c4cafcef-f9e1-533e-90b0-ee5f08b4fb42"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RG4") (unit 1)))))
+(wire (pts (xy 469.9 140.97) (xy 469.9 137.16)) (stroke (width 0) (type default)) (uuid "bd8de90b-4577-5e12-8113-bcebec830faf"))
+(global_label "G_R4" (shape bidirectional) (at 469.9 137.16 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "41425ad8-49ca-507c-a471-73971b1880d0"))
+(wire (pts (xy 469.9 148.59) (xy 469.9 152.4)) (stroke (width 0) (type default)) (uuid "f46a0c44-5d7b-5afc-a114-47d7ac3c560b"))
+(global_label "GND" (shape bidirectional) (at 469.9 152.4 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "4884995a-dc73-53c4-b3b9-a405ff4a93ba"))
+(symbol (lib_id "MiLa_Bench:R") (at 469.9 144.78 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "0f4b6a40-8a5e-58a0-9f54-b8ab66c1b0fc")
+(property "Reference" "RPD4" (at 473.71 143.51 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "10k" (at 473.71 146.05 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 469.9 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 469.9 144.78 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "8d6a1505-95e3-50ed-9680-1f0a5aaa192c"))
+(pin "2" (uuid "770ac624-f843-592b-9c1a-faca3e8952ab"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RPD4") (unit 1)))))
+(wire (pts (xy 466.09 175.26) (xy 462.28 175.26)) (stroke (width 0) (type default)) (uuid "b2082f7c-983b-560b-9696-b5ca002102ec"))
+(global_label "COIL_5V" (shape bidirectional) (at 462.28 175.26 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "55e9bfbe-6340-5b1b-a111-0a781d0f8fb8"))
+(wire (pts (xy 473.71 175.26) (xy 477.52 175.26)) (stroke (width 0) (type default)) (uuid "b1ab6d5a-6572-5362-8d18-b637658864ad"))
+(global_label "COIL_R4" (shape bidirectional) (at 477.52 175.26 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d9b92e6f-ae18-52c7-a5c0-86dac3cd342f"))
+(symbol (lib_id "MiLa_Bench:D") (at 469.9 175.26 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "f7bba772-aa5a-5ac2-ab17-f64093faa2a7")
+(property "Reference" "D4" (at 469.9 170.18 0) (effects (font (size 1.3 1.3))  ))
+(property "Value" "1N4148W-E3-08" (at 469.9 172.72 0) (effects (font (size 1.3 1.3))  ))
+(property "Footprint" "MiLa_Bench:D_SOD123" (at 469.9 175.26 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.vishay.com/docs/86356/1n4148w.pdf" (at 469.9 175.26 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "4c9eb861-aa75-542d-b05d-917b695346e0"))
+(pin "2" (uuid "39470982-b847-5507-b690-d5c6be668993"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "D4") (unit 1)))))
+(wire (pts (xy 190.5 245.11) (xy 186.69 245.11)) (stroke (width 0) (type default)) (uuid "e1930e80-e3e7-509a-aabe-e35417053868"))
+(global_label "P_GATE" (shape bidirectional) (at 186.69 245.11 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "93c7dac5-b198-5cca-91f0-40fb6cb3685c"))
+(wire (pts (xy 198.12 250.19) (xy 198.12 254)) (stroke (width 0) (type default)) (uuid "a185ea61-ce8f-5db7-9b32-f732ba5af24d"))
+(global_label "5V_RAW" (shape bidirectional) (at 198.12 254 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "de9ed242-6935-5b82-8fad-4b81a89b99ec"))
+(wire (pts (xy 198.12 240.03) (xy 198.12 236.22)) (stroke (width 0) (type default)) (uuid "084182be-c55f-5084-84eb-90abb807e009"))
+(global_label "COIL_5V" (shape bidirectional) (at 198.12 236.22 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "26db07bb-50a0-501a-a828-4fd83340564d"))
+(symbol (lib_id "MiLa_Bench:AO3401A") (at 195.58 245.11 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "e5045f55-5b2a-59f7-a052-3b8f427df749")
+(property "Reference" "Q5" (at 200.66 243.205 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "AO3401A" (at 200.66 246.38 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:SOT-23" (at 195.58 245.11 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.aosmd.com/res/data_sheets/AO3401A.pdf" (at 195.58 245.11 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "b0ae1bc9-1c3f-5c44-9e5b-161c4e53eb75"))
+(pin "2" (uuid "8ea9da83-729c-5784-9fe9-b8b3bb805387"))
+(pin "3" (uuid "9d548f64-4031-596e-8300-60f42a48ddda"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "Q5") (unit 1)))))
+(wire (pts (xy 260.35 245.11) (xy 256.54 245.11)) (stroke (width 0) (type default)) (uuid "a0ef41c0-8676-5177-9a34-3e10c3c2f950"))
+(global_label "G_PERMIT" (shape bidirectional) (at 256.54 245.11 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "24db59ad-7655-5095-97d6-7a4eb9dd6bcd"))
+(wire (pts (xy 267.97 250.19) (xy 267.97 254)) (stroke (width 0) (type default)) (uuid "dfbed1ec-7535-52f3-ad7d-b6be9f36e46a"))
+(global_label "GND" (shape bidirectional) (at 267.97 254 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "35d98104-fb03-597d-9399-84d945b43f8c"))
+(wire (pts (xy 267.97 240.03) (xy 267.97 236.22)) (stroke (width 0) (type default)) (uuid "9cdd6142-989b-5375-9750-1c5624981d97"))
+(global_label "P_GATE" (shape bidirectional) (at 267.97 236.22 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "137bbf2f-60a2-5a6b-ab16-af800a168e0d"))
+(symbol (lib_id "MiLa_Bench:AO3400A") (at 265.43 245.11 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "953a2380-ca3b-50b1-8dba-20288c93164d")
+(property "Reference" "Q6" (at 270.51 243.205 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "AO3400A" (at 270.51 246.38 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:SOT-23" (at 265.43 245.11 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "https://www.aosmd.com/res/data_sheets/AO3400A.pdf" (at 265.43 245.11 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "6495720e-da47-5db8-9efe-0f368408c6c7"))
+(pin "2" (uuid "60077bd1-9875-5a1c-b73a-161caf63cefe"))
+(pin "3" (uuid "94e1f24d-f002-5d6e-bf34-7ad53af9d05a"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "Q6") (unit 1)))))
+(wire (pts (xy 229.87 210.82) (xy 229.87 207.01)) (stroke (width 0) (type default)) (uuid "4d623100-78d3-54fe-a7c9-6ad7aee25bd0"))
+(global_label "5V_RAW" (shape bidirectional) (at 229.87 207.01 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d505fd12-9df0-59e6-838b-cb144be5c718"))
+(wire (pts (xy 229.87 218.44) (xy 229.87 222.25)) (stroke (width 0) (type default)) (uuid "d5b1bbfc-0648-529f-bd93-e69dbb1d20bf"))
+(global_label "P_GATE" (shape bidirectional) (at 229.87 222.25 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "41d3b080-ef35-5583-ae03-de89089efa95"))
+(symbol (lib_id "MiLa_Bench:R") (at 229.87 214.63 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "a97b1e67-3744-5335-9169-984254abf177")
+(property "Reference" "RPG1" (at 233.68 213.36 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "10k" (at 233.68 215.9 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 229.87 214.63 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 229.87 214.63 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "008acd42-ec9f-52c3-a023-14176a159083"))
+(pin "2" (uuid "222570fd-0506-5726-92bd-a19d04811b35"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RPG1") (unit 1)))))
+(wire (pts (xy 240.03 275.59) (xy 240.03 271.78)) (stroke (width 0) (type default)) (uuid "2ebd6542-a3dc-5be4-8001-80ed0c29f008"))
+(global_label "COIL_PERMIT" (shape bidirectional) (at 240.03 271.78 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "3ba12632-ea6b-5162-a54a-849932abfc4a"))
+(wire (pts (xy 240.03 283.21) (xy 240.03 287.02)) (stroke (width 0) (type default)) (uuid "97b73e01-499e-5cd2-9b89-47f349d3308f"))
+(global_label "G_PERMIT" (shape bidirectional) (at 240.03 287.02 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "2d0e60b9-dd06-57d6-8cd6-80e4ede252a0"))
+(symbol (lib_id "MiLa_Bench:R") (at 240.03 279.4 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "362dad86-2f72-57bc-b339-a7f6fccffedb")
+(property "Reference" "RG6" (at 243.84 278.13 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "330R" (at 243.84 280.67 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 240.03 279.4 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 240.03 279.4 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "4902f94f-d744-5213-a79b-845c4bc0bd73"))
+(pin "2" (uuid "4effaed1-3da6-55bc-9e4a-f1e0346cd14a"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RG6") (unit 1)))))
+(wire (pts (xy 299.72 266.7) (xy 299.72 262.89)) (stroke (width 0) (type default)) (uuid "f70a8d47-2c42-59f8-966d-54a16fe5f9e4"))
+(global_label "G_PERMIT" (shape bidirectional) (at 299.72 262.89 270) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d80f1f1e-9b6f-5384-bcbe-bbf2bd0e36a9"))
+(wire (pts (xy 299.72 274.32) (xy 299.72 278.13)) (stroke (width 0) (type default)) (uuid "1c125a35-fd7e-5108-b4a2-1462322ee957"))
+(global_label "GND" (shape bidirectional) (at 299.72 278.13 90) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "8d0e152d-4731-54c5-a672-1620a058ec60"))
+(symbol (lib_id "MiLa_Bench:R") (at 299.72 270.51 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "eaf143a8-7599-5303-9ae4-c35bdf5e04fd")
+(property "Reference" "RPD6" (at 303.53 269.24 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Value" "82k" (at 303.53 271.78 0) (effects (font (size 1.3 1.3)) (justify left) ))
+(property "Footprint" "MiLa_Bench:R_0805" (at 299.72 270.51 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 299.72 270.51 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "4c90f84c-3cc6-59b8-a742-1f3d65e1a4c9"))
+(pin "2" (uuid "f2805a55-8a33-5aaf-b4d9-53bb7d0f5b64"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "RPD6") (unit 1)))))
+(wire (pts (xy 39.37 240.03) (xy 35.56 240.03)) (stroke (width 0) (type default)) (uuid "0d237441-d3e1-5634-af44-e20caecef1c8"))
+(global_label "5V_RAW" (shape bidirectional) (at 35.56 240.03 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "03da0b52-8e73-5051-85cd-36bb3e8a4200"))
+(wire (pts (xy 39.37 242.57) (xy 35.56 242.57)) (stroke (width 0) (type default)) (uuid "0276d9bd-0edc-548b-aa1f-efbe2c6cafc0"))
+(global_label "GND" (shape bidirectional) (at 35.56 242.57 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "bd142246-33f9-54fe-af1d-634462880d8d"))
+(symbol (lib_id "MiLa_Bench:Conn_01x02") (at 44.45 240.03 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "1fb6ad3f-3636-5077-bf37-f23869a093ff")
+(property "Reference" "JPWR1" (at 44.45 224.79 0) (effects (font (size 1.3 1.3))  ))
+(property "Value" "5V RAW AFTER EXTERNAL ENABLE" (at 44.45 227.33 0) (effects (font (size 1.3 1.3))  ))
+(property "Footprint" "MiLa_Bench:PinHeader_1x02" (at 44.45 240.03 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 44.45 240.03 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "821b6749-a5e0-5206-8bda-016350207390"))
+(pin "2" (uuid "a9bba0f2-9060-5f91-8ae6-5b387bab4274"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "JPWR1") (unit 1)))))
+(wire (pts (xy 85.09 279.4) (xy 81.28 279.4)) (stroke (width 0) (type default)) (uuid "88023326-1cd6-51c4-ae69-0d1fcf11bf21"))
+(global_label "REQ_GROUP" (shape bidirectional) (at 81.28 279.4 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "bc9deab7-23ce-5856-a0bc-c5b8e9ca2acb"))
+(wire (pts (xy 85.09 281.94) (xy 81.28 281.94)) (stroke (width 0) (type default)) (uuid "e1951786-6b88-57df-b4db-f98d8f5243ae"))
+(global_label "REQ_K7" (shape bidirectional) (at 81.28 281.94 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "f3fe5d8e-9ad5-579d-9e26-bb2f942b9003"))
+(wire (pts (xy 85.09 284.48) (xy 81.28 284.48)) (stroke (width 0) (type default)) (uuid "1a0ff6ca-2d86-59d2-8081-b8084ec3dfbf"))
+(global_label "REQ_K8" (shape bidirectional) (at 81.28 284.48 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "62978f2d-70c7-5a64-b901-d33e803d73fb"))
+(wire (pts (xy 85.09 287.02) (xy 81.28 287.02)) (stroke (width 0) (type default)) (uuid "2f47366d-83ab-547e-9c0b-fbaaaab279ab"))
+(global_label "COIL_PERMIT" (shape bidirectional) (at 81.28 287.02 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "22b82ed8-4fa5-5764-9a9a-76adab278e99"))
+(wire (pts (xy 85.09 289.56) (xy 81.28 289.56)) (stroke (width 0) (type default)) (uuid "8eb80df7-e176-55f0-9c9b-0a49e64089bf"))
+(global_label "GND" (shape bidirectional) (at 81.28 289.56 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "3c03bc87-5285-5660-a969-fac5124d32cf"))
+(wire (pts (xy 85.09 292.1) (xy 81.28 292.1)) (stroke (width 0) (type default)) (uuid "9917813f-4c93-5457-8fd3-0195e4c06a78"))
+(global_label "5V_RAW" (shape bidirectional) (at 81.28 292.1 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "f1b78700-ca37-5377-8f2f-7e2145160344"))
+(symbol (lib_id "MiLa_Bench:Conn_01x06") (at 90.17 284.48 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "6695a08d-e1bd-54a6-8066-89849bb59852")
+(property "Reference" "JCTRL1" (at 90.17 269.24 0) (effects (font (size 1.3 1.3))  ))
+(property "Value" "REQUESTS / PERMIT / 5V FEEDBACK" (at 90.17 271.78 0) (effects (font (size 1.3 1.3))  ))
+(property "Footprint" "MiLa_Bench:PinHeader_1x06" (at 90.17 284.48 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 90.17 284.48 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "1a37d0dc-4b75-5191-992a-02d2f2471772"))
+(pin "2" (uuid "f5dfa797-ec61-58b6-a54a-8b5b32644204"))
+(pin "3" (uuid "0b2c2ab0-e16e-5067-af93-a0d74ab86678"))
+(pin "4" (uuid "2c9acdd9-6c1d-5052-ac8c-58e2f2d67eb9"))
+(pin "5" (uuid "97e36881-7339-5927-b848-148e7c1d3f3e"))
+(pin "6" (uuid "0824c274-9416-51c4-901c-f4cf320bd410"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "JCTRL1") (unit 1)))))
+(wire (pts (xy 389.89 255.27) (xy 386.08 255.27)) (stroke (width 0) (type default)) (uuid "596617f4-4512-5663-b007-3dd7a8d452bf"))
+(global_label "J4_14" (shape bidirectional) (at 386.08 255.27 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d74e178b-9058-5e00-9809-d83ec1284cac"))
+(wire (pts (xy 402.59 255.27) (xy 406.4 255.27)) (stroke (width 0) (type default)) (uuid "e521fe88-476b-5400-9896-341432e9a7a0"))
+(global_label "J4_13" (shape bidirectional) (at 406.4 255.27 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "01d99a6c-0bbf-5c54-a852-fe1daba42223"))
+(wire (pts (xy 389.89 257.81) (xy 386.08 257.81)) (stroke (width 0) (type default)) (uuid "20b1a438-6f73-5a36-9054-77e4879da4e0"))
+(global_label "J4_15" (shape bidirectional) (at 386.08 257.81 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d7263a7d-9d2e-5870-8d9b-eb23de4e92fe"))
+(wire (pts (xy 402.59 257.81) (xy 406.4 257.81)) (stroke (width 0) (type default)) (uuid "9eba33dc-c426-51df-9665-55e0ef0b6d6f"))
+(global_label "J4_12" (shape bidirectional) (at 406.4 257.81 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "9dc7bd3b-e4f9-51ff-a2dd-d30426eb4f9a"))
+(wire (pts (xy 389.89 260.35) (xy 386.08 260.35)) (stroke (width 0) (type default)) (uuid "c7b6f5e1-5ca8-528c-9d98-87caf0a23476"))
+(global_label "J4_16" (shape bidirectional) (at 386.08 260.35 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "3fe5f3b8-f647-59ea-943c-a584c2995f3a"))
+(wire (pts (xy 402.59 260.35) (xy 406.4 260.35)) (stroke (width 0) (type default)) (uuid "c9f16931-155b-5c03-93a5-2acf6a094857"))
+(global_label "J4_11" (shape bidirectional) (at 406.4 260.35 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "a2b993ec-31a8-5cb1-84af-f63d46e2fabb"))
+(wire (pts (xy 389.89 262.89) (xy 386.08 262.89)) (stroke (width 0) (type default)) (uuid "bef503af-e843-5f51-be6f-3f39a520d5d3"))
+(global_label "J4_17" (shape bidirectional) (at 386.08 262.89 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "550dbcb6-6abf-5387-bfdb-53da5580584c"))
+(wire (pts (xy 402.59 262.89) (xy 406.4 262.89)) (stroke (width 0) (type default)) (uuid "8639124d-4d98-5e11-8e66-72299dcbb453"))
+(global_label "J4_10" (shape bidirectional) (at 406.4 262.89 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "171b0409-49e2-54b2-8fc4-fa5be7d49ceb"))
+(wire (pts (xy 389.89 265.43) (xy 386.08 265.43)) (stroke (width 0) (type default)) (uuid "1ea9f96e-4254-55df-a531-8cb56ef8d1e9"))
+(global_label "J4_18" (shape bidirectional) (at 386.08 265.43 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "d2ae4e8c-e9c4-5605-8038-c860607e9496"))
+(wire (pts (xy 402.59 265.43) (xy 406.4 265.43)) (stroke (width 0) (type default)) (uuid "b0d867ec-6e0e-5bf0-929a-3389f2b10853"))
+(global_label "J4_9" (shape bidirectional) (at 406.4 265.43 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "dd52f230-981c-5c4f-9261-f4a1b98a8ca1"))
+(wire (pts (xy 389.89 267.97) (xy 386.08 267.97)) (stroke (width 0) (type default)) (uuid "e356e2be-ff8c-5aff-a0c7-f0c67bb3420a"))
+(global_label "J4_19" (shape bidirectional) (at 386.08 267.97 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "8f68b01c-3ffc-54b7-812e-493e579be753"))
+(wire (pts (xy 402.59 267.97) (xy 406.4 267.97)) (stroke (width 0) (type default)) (uuid "70cef545-2864-59b9-a6a0-3e402348db48"))
+(global_label "J4_8" (shape bidirectional) (at 406.4 267.97 180) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "c64b1734-e38d-59cd-b61c-cc2ab4f7cc95"))
+(symbol (lib_id "MiLa_Bench:Conn_02x06_Odd_Even") (at 394.97 260.35 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "83f5a02c-9644-58f3-a932-7a535d35142b")
+(property "Reference" "J4B1" (at 394.97 245.11 0) (effects (font (size 1.3 1.3))  ))
+(property "Value" "J4 SIGNAL SUBSET" (at 394.97 247.65 0) (effects (font (size 1.3 1.3))  ))
+(property "Footprint" "MiLa_Bench:PinHeader_2x06" (at 394.97 260.35 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 394.97 260.35 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "0b8a405a-cec1-5c0b-bf81-1c6b8464179c"))
+(pin "2" (uuid "6d650d4a-3ac3-5887-b539-99d4d54a7850"))
+(pin "3" (uuid "b6c85d73-58cf-5c7a-b13c-b76c3f332932"))
+(pin "4" (uuid "fdb0eaf2-ec77-5ac4-84aa-63d65c38241e"))
+(pin "5" (uuid "66c9f5fb-03dc-5569-b318-606efea3d132"))
+(pin "6" (uuid "285e6d30-8e6f-5a7c-986e-8f8982ebdd91"))
+(pin "7" (uuid "6430059c-9ce2-5ca1-b08e-223a4362c6a9"))
+(pin "8" (uuid "bf2568e0-d5ce-54dd-92ad-a06df18000e8"))
+(pin "9" (uuid "96b691a2-e4df-5788-916a-ed1b886c70f3"))
+(pin "10" (uuid "691bbbbd-8508-5df1-b057-2f41b96275ed"))
+(pin "11" (uuid "78b91253-5e96-5e21-b543-6477b33016f7"))
+(pin "12" (uuid "32f5723a-8bd0-57ff-8c88-4578468014c8"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "J4B1") (unit 1)))))
+(wire (pts (xy 480.06 257.81) (xy 476.25 257.81)) (stroke (width 0) (type default)) (uuid "96e29e3a-29b6-5285-926c-d2c7fa8a056a"))
+(global_label "J5_10" (shape bidirectional) (at 476.25 257.81 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "ec567a52-b98f-57a2-9b24-6486d3880a8b"))
+(wire (pts (xy 480.06 260.35) (xy 476.25 260.35)) (stroke (width 0) (type default)) (uuid "8e4e1d50-b39e-54c0-8a21-adb9ff897a55"))
+(global_label "J5_11" (shape bidirectional) (at 476.25 260.35 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "cc01f00b-1e6b-5c4d-b45f-ea7ca118f2ce"))
+(wire (pts (xy 480.06 262.89) (xy 476.25 262.89)) (stroke (width 0) (type default)) (uuid "46bbdd12-861a-544a-ab08-a9c5aa522891"))
+(global_label "J6_8" (shape bidirectional) (at 476.25 262.89 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "f08d1e37-fc89-5ec5-abc8-5702fb772ae0"))
+(wire (pts (xy 480.06 265.43) (xy 476.25 265.43)) (stroke (width 0) (type default)) (uuid "a26d2567-a9b7-5e63-a470-93e04c507955"))
+(global_label "J6_9" (shape bidirectional) (at 476.25 265.43 0) (effects (font (size 1.1 1.1)) (justify left bottom)) (uuid "b555364d-41a0-5cab-a429-13117a996127"))
+(symbol (lib_id "MiLa_Bench:Conn_01x04") (at 485.14 260.35 0) (unit 1) (in_bom yes) (on_board yes) (dnp no) (uuid "b6c89996-7732-530d-a4bc-ea62c9f565e1")
+(property "Reference" "JDAC1" (at 485.14 245.11 0) (effects (font (size 1.3 1.3))  ))
+(property "Value" "J5/J6 DAC SIGNALS" (at 485.14 247.65 0) (effects (font (size 1.3 1.3))  ))
+(property "Footprint" "MiLa_Bench:PinHeader_1x04" (at 485.14 260.35 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(property "Datasheet" "" (at 485.14 260.35 0) (effects (font (size 1.3 1.3))  (hide yes)))
+(pin "1" (uuid "de74a56d-ba29-5122-88f6-234b78b63e61"))
+(pin "2" (uuid "101fcb70-9ccf-5425-a69d-7cf4fb4f5a71"))
+(pin "3" (uuid "550bb446-5e3a-5b69-bca2-3d9c474d6966"))
+(pin "4" (uuid "18bb0958-9686-59df-9dc4-d1f056b30264"))
+(instances (project "mila_passive_bypass_bench_rev_a" (path "/05b202a7-192d-5cb5-8caa-9b8352187283" (reference "JDAC1") (unit 1)))))
+(text "BENCH ONLY: no Nissan harness, ECU, pedal, brake, or steering connection." (at 35 25 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "8707c879-e209-529d-a16f-795965038e39"))
+(text "Four NONLATCHING relays: RLY1 K3/K4; RLY2 K5/K6; RLY3 K7; RLY4 K8." (at 35 32 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "ebfbeadd-e667-53ca-9864-5fed1deddcae"))
+(text "COIL_5V is switched only; no external supply or energy storage may feed this net." (at 35 195 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "4d4659c0-58be-5be9-bd97-c848a0cb3c62"))
+(text "Flyback diodes lengthen release: dropout/bounce/skew must be measured." (at 35 202 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "32ea28de-df08-5b1e-9a5c-890c1287e9ef"))
+(text "JPWR1: regulated 4.75-5.25 V, 150 mA current limit, physical series enable upstream." (at 35 320 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "ba8854ea-0800-557e-8626-c8abfb4ee32b"))
+(text "JCTRL1 inputs active HIGH: >=2.60 V at header; LOW <=0.4 V; default disconnected OFF." (at 35 327 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "227a07b2-994b-50f3-b524-9d4aba9abeae"))
+(text "COIL_PERMIT comes from external independent supervisor. This board has no watchdog." (at 35 334 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "0a998d23-d182-5c94-841c-2a7c8aba7c92"))
+(text "All contact nets are isolated from logic GND. Source simulator provides its own references." (at 35 341 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "d95b64fc-a0c0-573c-b5a9-c449b5a228e7"))
+(text "G6K pins1(+)/8(-) coil; poleA3 COM/2 NC/4 NO; poleB6 COM/7 NC/5 NO." (at 35 348 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "4df9b363-a41c-58b2-8b23-a9eb050b4e41"))
+(text "K7/K8 remain independent. Mixed states are testable here and are not declared vehicle-safe." (at 35 355 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "178361ee-0085-5c7d-a30a-ba58bd5294a7"))
+(text "Passive NC bypass depends on healthy contacts and connector continuity; no stuck-contact claim." (at 35 362 0) (effects (font (size 1.4 1.4)) (justify left bottom)) (uuid "453f7bfd-3e78-5c3c-b401-870a0f6c9344"))
+(embedded_fonts no))

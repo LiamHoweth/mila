@@ -1,0 +1,17 @@
+{
+  "independent_memos": 18,
+  "debate_records": 10,
+  "committee_exists": true,
+  "local_links_missing": [],
+  "weighted_scores": [
+    45.6,
+    50.4
+  ],
+  "source_asset_hashes_rechecked": 69,
+  "changed_source_assets": [],
+  "delivered_files_sha256": {
+    "docs/mila-pcb-review-prompt-2026-10-12.md": "67bacbfb115b58f8189bec47e15e135d5cbe38b76c4513d2505281f8e7fc2efb",
+    "docs/mila-pcb-multi-agent-review-2026-10-12.md": "dba8229c9219c0a50493267b3387cf6883253fd85106037951f280bd3103838d",
+    "docs/reviews/2026-10-12/README.md": "6dec26132d93969929d29e69caa5d749a8ea8a8ad1768f160055b01d2b1b17fd"
+  }
+}

@@ -1,0 +1,65 @@
+reference,value,footprint,role,manufacturer_datasheet
+U1,TPS3430WQDRCRQ1,Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm,Independent window watchdog; fixed hardware settings,https://www.ti.com/lit/ds/symlink/tps3430-q1.pdf
+U2,TPS3808G33QDBVRQ1,Package_TO_SOT_SMD:SOT-23-6,3.3 V and ESP hardware reset supervisor,https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf
+U3,TPS3808G01QDBVRQ1,Package_TO_SOT_SMD:SOT-23-6,5 V adjustable monitor supplied by isolated diode-OR of both rails,https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf
+D1,BAS70-05-7-F,Package_TO_SOT_SMD:SOT-23,Low-leakage supply OR keeps 5 V monitor alive when either rail disappears,https://www.diodes.com/datasheet/download/BAS70.pdf
+U4,SN74LVC1G17QDCKRQ1,Package_TO_SOT_SMD:SOT-353_SC-70-5,Clean open-drain fault edges before ordinary logic,https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf
+U5,SN74LVC1G17QDCKRQ1,Package_TO_SOT_SMD:SOT-353_SC-70-5,Clean physical enable auxiliary-contact edges,https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf
+U6,SN74LVC2G14IDCKRQ1,Package_TO_SOT_SMD:SOT-363_SC-70-6,Invert WDI falling edges and debounce physical ARM,https://www.ti.com/lit/ds/symlink/sn74lvc2g14-q1.pdf
+U7,SN74LVC1G27DCKR,Package_TO_SOT_SMD:SOT-363_SC-70-6,All three relay requests must be LOW at ARM edge; catalog bench part,https://www.ti.com/lit/ds/symlink/sn74lvc1g27.pdf
+U8,SN74LVC1G08QDCKRQ1,Package_TO_SOT_SMD:SOT-353_SC-70-5,Combine rail/watchdog health and firmware READY,https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf
+U9,SN74LVC1G08QDCKRQ1,Package_TO_SOT_SMD:SOT-353_SC-70-5,Async clear source includes physical held enable,https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf
+U10,SN74LVC74AQPWRG4Q1,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,Two WDI falling edges after READY/enable; one full inter-edge cycle,https://www.ti.com/lit/ds/symlink/sn74lvc74a-q1.pdf
+U11,SN74LVC74AQPWRG4Q1,Package_SO:TSSOP-14_4.4x5mm_P0.65mm,Manual ARM edge latch; faults clear without automatic restart,https://www.ti.com/lit/ds/symlink/sn74lvc74a-q1.pdf
+U12,SN74LVC1G08QDCKRQ1,Package_TO_SOT_SMD:SOT-353_SC-70-5,ARM edge accepted only after heartbeat cycle and zero requests,https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf
+U13,SN74LVC1G08QDCKRQ1,Package_TO_SOT_SMD:SOT-353_SC-70-5,3.3 V lightly loaded permission driver; output is for carrier gate only,https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf
+U14,SN74LVC1G17QDCKRQ1,Package_TO_SOT_SMD:SOT-353_SC-70-5,Buffered HB_ONE delay provides positive same-clock DFF hold margin,https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf
+J1,BENCH_1x08,Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical,"ESP interface: shared 3.3 V rail, no GPIO mapping assumed",
+J2,BENCH_1x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Protected regulated bench 5 V upstream rail,
+J3,BENCH_1x04,Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical,External held enable: pole A 1-2 physically cuts coil feed; pole B 3-4 reports enable,
+J4,BENCH_1x02,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,Physical normally-open ARM pushbutton shorts 1-2 only,
+J5,BENCH_1x07,Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical,Relay board interface; physical coil feed and returned carrier 5 V continuity sense,
+J6,BENCH_1x06,Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical,3.3 V test/status points only,
+R1,10k 1%,Resistor_SMD:R_0603_1608Metric,Watchdog fixed window setting,
+R2,10k 1%,Resistor_SMD:R_0603_1608Metric,Watchdog fixed reset setting,
+R3,100k 1%,Resistor_SMD:R_0603_1608Metric,300 ms nominal PG33 reset release,
+R4,100k 1%,Resistor_SMD:R_0603_1608Metric,300 ms nominal PG5 reset release,
+R5,10k 1%,Resistor_SMD:R_0603_1608Metric,Shared open-drain health pull-up,
+R6,100k 1%,Resistor_SMD:R_0603_1608Metric,ARM default released; 100 ms nominal release RC,
+R7,1k 1%,Resistor_SMD:R_0603_1608Metric,ARM press current/RC limit,
+R8,10k 1%,Resistor_SMD:R_0603_1608Metric,Disconnected enable defaults LOW,
+R9,10k 1%,Resistor_SMD:R_0603_1608Metric,READY defaults LOW,
+R10,10k 1%,Resistor_SMD:R_0603_1608Metric,WDI defaults LOW,
+R11,10k 1%,Resistor_SMD:R_0603_1608Metric,Relay request default LOW,
+R12,10k 1%,Resistor_SMD:R_0603_1608Metric,Relay request default LOW,
+R13,10k 1%,Resistor_SMD:R_0603_1608Metric,Relay request default LOW,
+R14,100 1%,Resistor_SMD:R_0603_1608Metric,Short local WDI wire series damping,
+R15,100 1%,Resistor_SMD:R_0603_1608Metric,Short local READY wire series damping,
+R16,1k 1%,Resistor_SMD:R_0603_1608Metric,ESP hardware reset input current limit,
+R17,100 1%,Resistor_SMD:R_0603_1608Metric,Physical enable sense series damping,
+R18,1k 1%,Resistor_SMD:R_0603_1608Metric,Permit initial MOS gate-current limit and series damping,
+R19,82k 1%,Resistor_SMD:R_0603_1608Metric,Light permission load; parallel carrier 82k provides passive LOW,
+R20,10k 1%,Resistor_SMD:R_0603_1608Metric,Permit-gate ARMED input passive LOW,
+R21,10k 1%,Resistor_SMD:R_0603_1608Metric,Permit-gate QUALIFIED input passive LOW,
+R22,100k 0.1%,Resistor_SMD:R_0603_1608Metric,Returned carrier 5 V divider upper resistor; ~4.655 V threshold,
+R23,9.53k 0.1%,Resistor_SMD:R_0603_1608Metric,5 V monitor divider lower resistor,
+R24,1k 1%,Resistor_SMD:R_0603_1608Metric,Heartbeat stage hold-time margin delay,
+C1,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U1 supply pin(s),
+C2,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U2 supply pin(s),
+C3,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U3 supply pin(s),
+C4,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U4 supply pin(s),
+C5,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U5 supply pin(s),
+C6,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U6 supply pin(s),
+C7,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U7 supply pin(s),
+C8,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U8 supply pin(s),
+C9,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U9 supply pin(s),
+C10,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U10 supply pin(s),
+C11,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U11 supply pin(s),
+C12,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U12 supply pin(s),
+C13,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U13 supply pin(s),
+C14,1uF X7R 10V,Capacitor_SMD:C_0603_1608Metric,ARM debounce capacitor; verify contact bounce on bench,
+C15,1uF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Local 3.3 V decoupling; no hold-up promise,
+C16,1uF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Upstream 5 V local decoupling; not downstream of enable switch,
+C17,1nF C0G 10V,Capacitor_SMD:C_0603_1608Metric,5 V SENSE divider noise filter; ~8.7 us nominal RC,
+C18,100pF C0G 5% 10V,Capacitor_SMD:C_0603_1608Metric,Heartbeat stage delay; ~100 ns nominal RC before Schmitt buffer,
+C19,100nF X7R 10V,Capacitor_SMD:C_0603_1608Metric,Place at U14 supply pin,

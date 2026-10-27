@@ -1,0 +1,30 @@
+reference,quantity,value,footprint,manufacturer_datasheet,scope,tolerance
+RLY1,1,G6K-2P-Y DC5,MiLa_Bench:Relay_G6K_2P_Y_corrected,https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf,isolated bench only,
+Q1,1,AO3400A,MiLa_Bench:SOT-23,https://www.aosmd.com/res/data_sheets/AO3400A.pdf,isolated bench only,
+RG1,1,330R,MiLa_Bench:R_0805,,isolated bench only,1%
+RPD1,1,10k,MiLa_Bench:R_0805,,isolated bench only,1%
+D1,1,1N4148W-E3-08,MiLa_Bench:D_SOD123,https://www.vishay.com/docs/86356/1n4148w.pdf,isolated bench only,
+RLY2,1,G6K-2P-Y DC5,MiLa_Bench:Relay_G6K_2P_Y_corrected,https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf,isolated bench only,
+Q2,1,AO3400A,MiLa_Bench:SOT-23,https://www.aosmd.com/res/data_sheets/AO3400A.pdf,isolated bench only,
+RG2,1,330R,MiLa_Bench:R_0805,,isolated bench only,1%
+RPD2,1,10k,MiLa_Bench:R_0805,,isolated bench only,1%
+D2,1,1N4148W-E3-08,MiLa_Bench:D_SOD123,https://www.vishay.com/docs/86356/1n4148w.pdf,isolated bench only,
+RLY3,1,G6K-2P-Y DC5,MiLa_Bench:Relay_G6K_2P_Y_corrected,https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf,isolated bench only,
+Q3,1,AO3400A,MiLa_Bench:SOT-23,https://www.aosmd.com/res/data_sheets/AO3400A.pdf,isolated bench only,
+RG3,1,330R,MiLa_Bench:R_0805,,isolated bench only,1%
+RPD3,1,10k,MiLa_Bench:R_0805,,isolated bench only,1%
+D3,1,1N4148W-E3-08,MiLa_Bench:D_SOD123,https://www.vishay.com/docs/86356/1n4148w.pdf,isolated bench only,
+RLY4,1,G6K-2P-Y DC5,MiLa_Bench:Relay_G6K_2P_Y_corrected,https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf,isolated bench only,
+Q4,1,AO3400A,MiLa_Bench:SOT-23,https://www.aosmd.com/res/data_sheets/AO3400A.pdf,isolated bench only,
+RG4,1,330R,MiLa_Bench:R_0805,,isolated bench only,1%
+RPD4,1,10k,MiLa_Bench:R_0805,,isolated bench only,1%
+D4,1,1N4148W-E3-08,MiLa_Bench:D_SOD123,https://www.vishay.com/docs/86356/1n4148w.pdf,isolated bench only,
+Q5,1,AO3401A,MiLa_Bench:SOT-23,https://www.aosmd.com/res/data_sheets/AO3401A.pdf,isolated bench only,
+Q6,1,AO3400A,MiLa_Bench:SOT-23,https://www.aosmd.com/res/data_sheets/AO3400A.pdf,isolated bench only,
+RPG1,1,10k,MiLa_Bench:R_0805,,isolated bench only,1%
+RG6,1,330R,MiLa_Bench:R_0805,,isolated bench only,1%
+RPD6,1,82k,MiLa_Bench:R_0805,,isolated bench only,1%
+JPWR1,1,5V RAW AFTER EXTERNAL ENABLE,MiLa_Bench:PinHeader_1x02,,isolated bench only,
+JCTRL1,1,REQUESTS / PERMIT / 5V FEEDBACK,MiLa_Bench:PinHeader_1x06,,isolated bench only,
+J4B1,1,J4 SIGNAL SUBSET,MiLa_Bench:PinHeader_2x06,,isolated bench only,
+JDAC1,1,J5/J6 DAC SIGNALS,MiLa_Bench:PinHeader_1x04,,isolated bench only,

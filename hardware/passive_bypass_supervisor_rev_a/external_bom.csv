@@ -1,0 +1,4 @@
+reference,quantity,manufacturer_part,role,wiring,manufacturer_source,physical_acceptance
+SW_ENABLE,1,C&K 8221SHZGE,External held DPDT momentary enable using NO contacts only,"J3-1→COM1;J3-2→NO2;J3-3→COM4;J3-4→NO5;NC3/NC6 insulated",https://www.ckswitches.com/media/1397/8020.pdf,"Verify terminal continuity rated coil current low-level auxiliary reliability bounce and pole timing; PENDING"
+SW_ARM,1,C&K 8125SHZBE,Separate physical momentary ARM using NO contact,"J4-1→COM1;J4-2→NO2;NC3 insulated",https://www.ckswitches.com/media/1397/8020.pdf,"Verify terminal continuity mounting labeling and RC debounce with actual contact bounce; PENDING"
+WIRING,1,Insulated22AWGshortbenchleads,Off-board low-voltage harness,"Distinct ENABLE ARM and carrier wiring; strain relief; insulated unused switch terminals",,"Point-to-point continuity and no supply backfeed; PENDING"

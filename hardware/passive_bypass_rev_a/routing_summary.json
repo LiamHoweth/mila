@@ -1,0 +1,11 @@
+{
+  "failed_nets": [],
+  "net_count": 39,
+  "tracks": 478,
+  "board_mm": [
+    60,
+    50
+  ],
+  "route_track_mm": 0.25,
+  "copper_layers": 2
+}

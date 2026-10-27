@@ -1,0 +1,48 @@
+{
+  "date_utc": "2026-10-07T18:06:51.984349+00:00",
+  "file": "hardware/releases/MiLa_Passive_Bypass_Bench_RevA_2026-10-07.zip",
+  "bytes": 3062113,
+  "sha256": "15e00a7cbc3a79def7d4f10a0a4dd65cc93b40cab4714557c91f93fc398066e8",
+  "payload_files": 178,
+  "zip_crc_passed": true,
+  "manifest_hashes_passed": true,
+  "validation_summary_asset_hashes_passed": true,
+  "extracted_package_commands": [
+    {
+      "command": [
+        "python3",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-q"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": "----------------------------------------------------------------------\nRan 60 tests in 0.095s\n\nOK\n"
+    },
+    {
+      "command": [
+        "python3",
+        "tools/check_passive_bypass_design.py"
+      ],
+      "exit_code": 0,
+      "stdout": "{\n  \"scope\": \"CAD connectivity and source preservation only\",\n  \"passed\": true,\n  \"contact_terminal_count\": 18,\n  \"problems\": []\n}\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "python3",
+        "tools/build_passive_bypass_supervisor.py",
+        "--verify-netlist",
+        "hardware/passive_bypass_supervisor_rev_a/netlist.xml"
+      ],
+      "exit_code": 0,
+      "stdout": "PASS: 207 populated component pin nets match KiCad export; 9 NC pins checked\n",
+      "stderr": ""
+    }
+  ],
+  "passed": true,
+  "scope": "Archive integrity and extracted host checks only; no physical evidence"
+}

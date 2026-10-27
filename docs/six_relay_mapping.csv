@@ -1,0 +1,19 @@
+relay,contact_terminal,role,pcb2_net,default_or_energized,control_terminal,control_net,control_group,provisional_function,confidence
+J7/K3,J7-17,COM,J4-14,both,J7-28,J4-23,COMMON_IN1_IN6,Future steering path A,medium
+J7/K3,J7-18,NC,J4-13,default,J7-28,J4-23,COMMON_IN1_IN6,Future steering bypass A,medium
+J7/K3,J7-16,NO,J5-10 MCP4728 VB,energized,J7-28,J4-23,COMMON_IN1_IN6,Future steering injected A,medium
+J7/K4,J7-14,COM,J4-15,both,J7-29,J4-23,COMMON_IN1_IN6,Future steering path B,medium
+J7/K4,J7-15,NC,J4-12,default,J7-29,J4-23,COMMON_IN1_IN6,Future steering bypass B,medium
+J7/K4,J7-13,NO,J5-11 MCP4728 VA,energized,J7-29,J4-23,COMMON_IN1_IN6,Future steering injected B,medium
+J7/K5,J7-11,COM,J4-16,both,J7-30,J4-23,COMMON_IN1_IN6,Accelerator/sensor path A,medium
+J7/K5,J7-12,NC,J4-11,default,J7-30,J4-23,COMMON_IN1_IN6,Accelerator/sensor bypass A,medium
+J7/K5,J7-10,NO,J6-8 MCP4728 VD,energized,J7-30,J4-23,COMMON_IN1_IN6,Accelerator/sensor injected A,medium
+J7/K6,J7-8,COM,J4-17,both,J7-31,J4-23,COMMON_IN1_IN6,Accelerator/sensor path B,medium
+J7/K6,J7-9,NC,J4-10,default,J7-31,J4-23,COMMON_IN1_IN6,Accelerator/sensor bypass B,medium
+J7/K6,J7-7,NO,J6-9 MCP4728 VC,energized,J7-31,J4-23,COMMON_IN1_IN6,Accelerator/sensor injected B,medium
+J7/K7,J7-5,COM,J4-18,both,J7-32,J3-25,INDEPENDENT_K7,Linear-actuator brake path A,medium
+J7/K7,J7-6,NC,J4-9,default,J7-32,J3-25,INDEPENDENT_K7,Linear-actuator default A,medium
+J7/K7,J7-4,NO,J4-8,energized,J7-32,J3-25,INDEPENDENT_K7,Linear-actuator alternate A,medium
+J7/K8,J7-2,COM,J4-19,both,J7-33,J3-26,INDEPENDENT_K8,Linear-actuator brake path B,medium
+J7/K8,J7-3,NC,J4-8,default,J7-33,J3-26,INDEPENDENT_K8,Linear-actuator default B,medium
+J7/K8,J7-1,NO,J4-9,energized,J7-33,J3-26,INDEPENDENT_K8,Linear-actuator alternate B,medium

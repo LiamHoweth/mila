@@ -1,0 +1,146 @@
+{
+  "date_utc": "2026-10-07T18:04:48.470882+00:00",
+  "status": "BENCH_DESIGN_COMPLETE_PHYSICAL_ACCEPTANCE_PENDING",
+  "scope": "Isolated 0-5 V current-limited signal simulator, at most 1 mA, 20-30 C; no vehicle authorization",
+  "review": {
+    "specialists": 12,
+    "review_rounds": 5,
+    "correctable_bench_design_findings_open": 0
+  },
+  "native_checks": {
+    "carrier": {
+      "erc_violations": 0,
+      "drc_violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0
+    },
+    "supervisor": {
+      "erc_violations": 0,
+      "drc_violations": 0,
+      "unconnected_items": 0,
+      "schematic_parity": 0
+    }
+  },
+  "native_command_record": "hardware/review_evidence/native-validation-final.json",
+  "host_tests": {
+    "passed": 60,
+    "model": 41,
+    "carrier_cad": 3,
+    "supervisor_xml": 12,
+    "retained_can": 4,
+    "supervisor_boolean_vectors": 512,
+    "record": "hardware/review_evidence/software-validation-final.json"
+  },
+  "source_preservation": {
+    "original_files": 10,
+    "all_unchanged": true,
+    "verified_contact_terminals": 18,
+    "record": "hardware/review_evidence/original_source_hashes.json"
+  },
+  "board_dimensions_mm": {
+    "carrier": [
+      60,
+      50
+    ],
+    "supervisor": [
+      80,
+      60
+    ]
+  },
+  "manufacturing_export_records": {
+    "hardware/passive_bypass_rev_a/validation/commands.json": {
+      "commands": 11,
+      "all_exit_zero": true
+    },
+    "hardware/passive_bypass_supervisor_rev_a/pcb_validation/commands.json": {
+      "commands": 8,
+      "all_exit_zero": true
+    }
+  },
+  "reconstruction": {
+    "supervisor_accepted_layout": "hardware/passive_bypass_supervisor_rev_a/pcb_validation/accepted_layout.json",
+    "fresh_board_rebuild_native_checks_passed": true,
+    "evidence": "hardware/passive_bypass_supervisor_rev_a/pcb_validation/commands.json"
+  },
+  "physical_test_matrices": [
+    {
+      "file": "docs/passive-bypass-validation.csv",
+      "rows": 34,
+      "all_status": "NOT_RUN",
+      "physical_results": 0
+    },
+    {
+      "file": "hardware/passive_bypass_supervisor_rev_a/bench_expectations.csv",
+      "rows": 33,
+      "all_status": "PENDING",
+      "physical_results": 0
+    }
+  ],
+  "physical_results": 0,
+  "limits": [
+    "No physical release/bounce or partial-power acceptance",
+    "K7/K8 physical function and required vehicle state unknown",
+    "No independent analog plausibility validation or single-fault tolerance claim"
+  ],
+  "asset_sha256": {
+    "hardware/passive_bypass_rev_a/bom.csv": "2b8cff404638ce90eb8397ce90934eb3f157bd05dd8501727232c81744971b60",
+    "hardware/passive_bypass_rev_a/routing_summary.json": "87f53424f0e2651ed9a71837edb0aa0f11f7e204c75ae2c4efbd8b9b463c903c",
+    "hardware/passive_bypass_rev_a/fp-lib-table": "cd23c3eb3e4afe9c4719959b1e1b96fbd06d0a4172063c2820da8cbf87ca5ee5",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.kicad_sym": "4b157605bce1d72e8bfab7f0db07c4335965a4c23110b64a0fcc9c5d14606a6a",
+    "hardware/passive_bypass_rev_a/mila_passive_bypass_bench_rev_a.kicad_pcb": "f5e4f0ec2551de2b340e215da3afb2b94bc9af5775034050244a9d36bb0feda5",
+    "hardware/passive_bypass_rev_a/pin_net_map.csv": "71d563a1c89e87916a7ae8e93b8c9a4f8883ab0080a518af0b82868a1378b45a",
+    "hardware/passive_bypass_rev_a/mila_passive_bypass_bench_rev_a.kicad_sch": "c7a8eff96316cacc916cd96e5c22ee726c996df54e626c74f88296e3ad6b89ef",
+    "hardware/passive_bypass_rev_a/sym-lib-table": "01fbc15be02ced38d2ed2495e879d4bd5c47b2f492148e65ed7bffe6b5c4b2da",
+    "hardware/passive_bypass_rev_a/mila_passive_bypass_bench_rev_a.kicad_pro": "39061a81a23da51b210104aee4e54afc17225ed7961820d326ebd04e93018e3e",
+    "hardware/passive_bypass_rev_a/passive_bypass.net": "10e8008fecaff9ff9b93a069435683461d5c87c774bd78525c48ea7a8a4a53fd",
+    "hardware/passive_bypass_rev_a/manufacturing_bench_only/positions.csv": "d610b76cdc15bba2f08d10821bec741ee96daafc81ceb1f5e6edf1a39f75131f",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/R_0805.kicad_mod": "f855b4f76c05ea7906d44a8777bd79a80cc31f1637c4e1c73c1d8297fbd4bafd",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/SOT-23.kicad_mod": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/PinHeader_1x06.kicad_mod": "9db5fa1a27a4c6730887855cb63f1cdc5ca9379a1957d9eb44895a012463f7eb",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/PinHeader_1x05.kicad_mod": "f1774950c038982f0e0b0a3fccf7db4c85631a226b427c082d35e2b246293c8d",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/PinHeader_2x06.kicad_mod": "e16e252399087772e0a25a46dd2e16acf84142f978574a4db551e47fffd68a11",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/D_SOD123.kicad_mod": "273fb46f6884091003a166f89dbc35b1c2ca930460ae3699a658930b9ff2bf8a",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/Relay_G6K_2P_Y_corrected.kicad_mod": "c951d8689acc54ed28239710201d0fca6bf182adc2127a79d2ab65aefeb2b262",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/PinHeader_1x02.kicad_mod": "15789f05c02c7769b47b461a9c2c8578886f80ca9ac8ba55b4eda5582cbd00f5",
+    "hardware/passive_bypass_rev_a/MiLa_Bench.pretty/PinHeader_1x04.kicad_mod": "dc7f85bbb62954339f8d87588d58317be190ca222d55abca5ea4b2db34e859fc",
+    "hardware/passive_bypass_rev_a/validation/erc.json": "d95f87f90171d90c5bfe0fc2cdce098c1fbee2ea12fadf8a9e60f89251286613",
+    "hardware/passive_bypass_rev_a/validation/commands.json": "622bf591da88cb0bc33c29eee5104b3839bdc7925f5f9e3865341117feee0628",
+    "hardware/passive_bypass_rev_a/validation/drc.json": "2f751fb0e6efc0764900fe4215d14ba853b296f48ae51c9d87303cfc353767d9",
+    "hardware/passive_bypass_supervisor_rev_a/mila_passive_bypass_supervisor_rev_a.kicad_sch": "838b7f85c59e56e3c58c17db460291d01452817d3775b1dd974bf656bee4b45d",
+    "hardware/passive_bypass_supervisor_rev_a/bom.csv": "2afd5a755f9eec9b96da03d2c4f973325e527904270cd9f304e392d5671da36e",
+    "hardware/passive_bypass_supervisor_rev_a/mila_passive_bypass_supervisor_rev_a.kicad_pro": "e8d90b97535e035001d791b9290dfd0eb9f3585ca7c415a1fef478d389ef5ca8",
+    "hardware/passive_bypass_supervisor_rev_a/fp-lib-table": "38b4320681a90b8a70d986de898aa5e9a8db9e1924f03793c9e707e656b34973",
+    "hardware/passive_bypass_supervisor_rev_a/MiLaBench.kicad_sym": "5c68afea1257fe5ca4479b2f819b3d58584e13f66c52cfd90db38600fcfa7f55",
+    "hardware/passive_bypass_supervisor_rev_a/netlist.xml": "3a78ba076fd790836d73795e743c4c1986a65c65c4299d0575941e4f02f04179",
+    "hardware/passive_bypass_supervisor_rev_a/pin_net.csv": "73af02853e4b231815ccf454e830f9a3f841496abedf5d4a12dacdc6516abfcf",
+    "hardware/passive_bypass_supervisor_rev_a/sym-lib-table": "e7cf15edca4da634af14646b41c574005e413fdafc295b564f75a9dc9cca1f01",
+    "hardware/passive_bypass_supervisor_rev_a/circuit.json": "ae53cb050e8a36eb165647b254231cebf1a99f78228faca85450add8b2481c00",
+    "hardware/passive_bypass_supervisor_rev_a/external_bom.csv": "33feff8c1603da56d9c2b940ca8c7ee13d1e92c32973001d6e291d3cb5263b63",
+    "hardware/passive_bypass_supervisor_rev_a/mila_passive_bypass_supervisor_rev_a.kicad_pcb": "e20cb554c19121ba4161463d05553b643c59361d779f0066b337d35b4b7b2b76",
+    "hardware/passive_bypass_supervisor_rev_a/bench_expectations.csv": "0c204880c57856317b0af0ade8ee56770245d9b80e3f9f23804e19b11b30f5f8",
+    "hardware/passive_bypass_supervisor_rev_a/Capacitor_SMD.pretty/C_0603_1608Metric.kicad_mod": "fe0dbfefbb181a0466f93a8de52d84ba7b00fcd9acdbb69575f4128a0af4e405",
+    "hardware/passive_bypass_supervisor_rev_a/Package_TO_SOT_SMD.pretty/SOT-363_SC-70-6.kicad_mod": "0659d885e00b786968c3ba29152b808777240a91c1fb49ab8d814eb03530115c",
+    "hardware/passive_bypass_supervisor_rev_a/Package_TO_SOT_SMD.pretty/SOT-23.kicad_mod": "0d88c86c1b6d8c1aae4aa8c09386264c089d4451a128b6ccd63ed253f4300b15",
+    "hardware/passive_bypass_supervisor_rev_a/Package_TO_SOT_SMD.pretty/SOT-23-6.kicad_mod": "f341c73aac9dcb553456f68bf3fee3d26eb14acf6d8a1cae82b50418fe1d71ca",
+    "hardware/passive_bypass_supervisor_rev_a/Package_TO_SOT_SMD.pretty/SOT-353_SC-70-5.kicad_mod": "869e17094994ff787b769a2d69512455a2f20950d59dd5c4103026ec413bb88e",
+    "hardware/passive_bypass_supervisor_rev_a/pcb_validation/erc.json": "f5ff8bcf64ea01f15d0b9096f411b08ed08c59c69c777bad709eb34fba0882ba",
+    "hardware/passive_bypass_supervisor_rev_a/pcb_validation/routing_summary.json": "3d9ee3862179c8162e5e97f7e5bfaa320af47c43731e80cd1c471dccb60648ce",
+    "hardware/passive_bypass_supervisor_rev_a/pcb_validation/accepted_layout.json": "782ae9b712cc3bcadac16bf732d02a52d1d6e07998fedf0df073006b7676cb09",
+    "hardware/passive_bypass_supervisor_rev_a/pcb_validation/commands.json": "8b7a2415b3a0a5c890cb7ab8db03556538f0d5c5d3999a77a42eb4a14647a46b",
+    "hardware/passive_bypass_supervisor_rev_a/pcb_validation/drc.json": "0d7d099f36ccc37d64d9a406be34acfd053cf3007b2afc47b793b12ce736de9b",
+    "hardware/passive_bypass_supervisor_rev_a/pcb_validation/source_hashes.json": "5ae71fbfb2c17efad1beb8054ba473d666721cc0724c9a043c86e99ccad7c3b2",
+    "hardware/passive_bypass_supervisor_rev_a/Connector_PinHeader_2.54mm.pretty/PinHeader_1x04_P2.54mm_Vertical.kicad_mod": "571d2d16b49795f8f9a91f96cc83fd2adf49890cd66c377189c44204ebd03c29",
+    "hardware/passive_bypass_supervisor_rev_a/Connector_PinHeader_2.54mm.pretty/PinHeader_1x08_P2.54mm_Vertical.kicad_mod": "a3487a12dc87702385d7c9d219d8e1dff23f5bd4d263be9d8ce0507ebf77b0df",
+    "hardware/passive_bypass_supervisor_rev_a/Connector_PinHeader_2.54mm.pretty/PinHeader_1x02_P2.54mm_Vertical.kicad_mod": "5301303268f72ba9cc94b7fdbac355951933e6854272ce8d300b679b86b5d45d",
+    "hardware/passive_bypass_supervisor_rev_a/Connector_PinHeader_2.54mm.pretty/PinHeader_1x07_P2.54mm_Vertical.kicad_mod": "b68c5749fd4d81ff8a7e3ef1223a9081acd4a879079e7c2c9d5bcb9363b02630",
+    "hardware/passive_bypass_supervisor_rev_a/Connector_PinHeader_2.54mm.pretty/PinHeader_1x06_P2.54mm_Vertical.kicad_mod": "5f2993c50dbd5024384bf6fa972fcd10d40d0837039e1e371b326a27d9f5b8b7",
+    "hardware/passive_bypass_supervisor_rev_a/Package_SO.pretty/TSSOP-14_4.4x5mm_P0.65mm.kicad_mod": "e4bf82cea6d3b3259ddf42469b1407628ad1181a28ae6f3f340190c0cca31ccd",
+    "hardware/passive_bypass_supervisor_rev_a/Package_SON.pretty/VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm.kicad_mod": "cf7a6e4c45a5fe574ff823aebcbbe38d2211837e99b711e6b0a76bf75f4322b4",
+    "hardware/passive_bypass_supervisor_rev_a/Resistor_SMD.pretty/R_0603_1608Metric.kicad_mod": "7190ac4a00125b807e54129ef0d87d87f2a658eeb74d025a7028203419b09f23",
+    "hardware/passive_bypass_supervisor_rev_a/manufacture/positions.csv": "f03c63bc53e1c37b200343e915b1ec82eb669a95a2e0cdb396be7c36843b5f56",
+    "docs/passive-bypass-design.md": "cda1fedf529aae40873b97399518afc4adda04b952235c2a762e64e6f97b24b5",
+    "docs/passive-bypass-validation.csv": "45d367b8aaf4b89837a1479c14f3bf04f998b49979ae892e554065010e64c3fe",
+    "docs/passive-bypass-fmea.md": "6ae58c89200330c2524e812ebec86b0cc2734de805909c28599a1fbd1f33843c",
+    "docs/passive-bypass-review-log.md": "5502f351474206e8103c3ee26bf3a1af7f82e1e92d3d44eb0d947e554c146c79"
+  }
+}

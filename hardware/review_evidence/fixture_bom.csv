@@ -1,0 +1,11 @@
+item,quantity,specification,purpose,acceptance
+SOURCE_RESISTOR,10,10k ohm 1% at least 0.125W,One series containment resistor per independent 0-5V source,Measure each resistance and confirm no source bypasses it
+COM_LOAD,6,100k ohm 1% at least 0.125W,One load from each COM to external fixture reference,Account for 50k equivalent load in K7/K8 mixed states
+COIL_SUPPLY,1,Protected regulated adjustable 5V bench supply with current limit,5V input upstream of physical held enable,Start combined carrier/supervisor limit at 200mA; actual returned feed at least 4.95V for arming
+LOGIC_SUPPLY,1,Protected regulated adjustable 3.3V bench supply for standalone testing,Shared logic rail and stimulus reference,Measure 3.0-3.6V; remove this independent source before sharing a real ESP rail
+SIGNAL_SOURCES,10,Independent current-limited 0-5V laboratory source channels with known output impedance,Four NC sources four DAC sources and J4-8/J4-9,Characterize source impedance and loaded voltages; references outside carrier
+WDI_STIMULUS,1,Generator with measured 0-3.3V output and 30ms period,Standalone watchdog functional stimulus,Synthetic pulses are test stimulus only; no negative voltage
+LOGIC_STIMULUS,1,Manual 3.3V READY reset and three request controls with stable inactive defaults,Functional sequencing before writing guarded firmware,Confirm header levels; hold stable at least 1ms before ARM
+SCOPE,1,Oscilloscope with suitable channels and differential or verified reference probes,Simultaneous COM pair gate Q5-VGS and coil-current captures,Record probe loading time resolution references and calibration
+METER,1,DMM with resistance continuity and voltage modes,Unpowered assembly and cable verification,Verify exact switch and connector terminals before power
+HARNESS,1,Short insulated keyed-or-orientation-marked bench leads and strain relief,Seven-function supervisor-to-carrier wiring including ground split and returned feed,Point-to-point continuity; no local feedback loop at supervisor

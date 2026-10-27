@@ -1,0 +1,17 @@
+.DS_Store
+__pycache__/
+*.py[cod]
+.pio/
+.history/
+.env
+.env.*
+!.env.example
+*.p12
+*.p8
+*.mobileprovision
+*.keystore
+*.jks
+/output
+/tmp
+*.kicad_prl
+~*.lck

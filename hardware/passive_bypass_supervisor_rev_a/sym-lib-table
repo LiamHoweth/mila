@@ -1,0 +1,1 @@
+(sym_lib_table (version 7) (lib (name "MiLaBench") (type "KiCad") (uri "${KIPRJMOD}/MiLaBench.kicad_sym") (options "") (descr "Bench supervisor pin blocks from manufacturer data")))

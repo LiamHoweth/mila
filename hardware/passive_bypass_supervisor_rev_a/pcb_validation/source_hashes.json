@@ -1,0 +1,5 @@
+{
+  "hardware/passive_bypass_supervisor_rev_a/circuit.json": "ae53cb050e8a36eb165647b254231cebf1a99f78228faca85450add8b2481c00",
+  "hardware/passive_bypass_supervisor_rev_a/netlist.xml": "3a78ba076fd790836d73795e743c4c1986a65c65c4299d0575941e4f02f04179",
+  "hardware/passive_bypass_supervisor_rev_a/mila_passive_bypass_supervisor_rev_a.kicad_sch": "838b7f85c59e56e3c58c17db460291d01452817d3775b1dd974bf656bee4b45d"
+}

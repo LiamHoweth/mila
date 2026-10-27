@@ -1,0 +1,2846 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/howeth/Desktop/codex/Hardware/MiLa/hardware/passive_bypass_supervisor_rev_a/mila_passive_bypass_supervisor_rev_a.kicad_sch</source>
+    <date>2026-10-07T12:11:04</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MiLa passive bypass external supervisor - bench Rev A</title>
+        <company>MiLa</company>
+        <rev>A BENCH ONLY</rev>
+        <date>2026-10-07</date>
+        <source>mila_passive_bypass_supervisor_rev_a.kicad_sch</source>
+        <comment number="1" value="Unrouted reference: no vehicle authorization, no independent analog plausibility validator"/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U1 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U1 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C1_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>70dc1178-940d-5694-b15a-abb22201ca63</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C2">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U2 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U2 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C2_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b1d00874-118f-56ae-9459-5325110da7d4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C3">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U3 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U3 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C3_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a8f1e5a-4c65-525f-b752-2ee33a34acae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C4">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U4 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U4 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C4_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e4c4738-f539-570f-a625-d01797fc703c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C5">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U5 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U5 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C5_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cdfa104c-1288-5ca5-af2c-3e144542e216</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C6">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U6 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U6 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C6_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab97cf2b-7dd2-50cc-9db0-d679e3ead073</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C7">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U7 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U7 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C7_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>28048422-7727-5bcf-a501-60e15112e386</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C8">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U8 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U8 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C8_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6724aff-f96c-50c7-bbda-2c78b7b9a4d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C9">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U9 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U9 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C9_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7943ac3-1bfb-53b6-afd2-dac41bb12e68</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C10">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U10 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U10 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C10_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66f0def9-29c7-5684-bdf9-fa115ac4bece</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C11">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U11 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U11 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C11_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3b653c0-7d9d-501b-ac8b-7ecd2715d553</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C12">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U12 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U12 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C12_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9b8eda29-5488-5345-91c6-280b8cbbc33b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C13">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U13 supply pin(s)</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U13 supply pin(s)</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C13_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05c54e08-a15d-55c7-86b8-dfeba9410c8f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C14">
+      <value>1uF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>ARM debounce capacitor; verify contact bounce on bench</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">ARM debounce capacitor; verify contact bounce on bench</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C14_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>175d249a-490d-5fb6-9ef2-fd406e631e66</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C15">
+      <value>1uF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Local 3.3 V decoupling; no hold-up promise</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Local 3.3 V decoupling; no hold-up promise</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C15_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54f64c07-ea68-502d-91c4-00f9db06eafa</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C16">
+      <value>1uF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Upstream 5 V local decoupling; not downstream of enable switch</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Upstream 5 V local decoupling; not downstream of enable switch</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C16_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8187836e-54d6-52d7-a6d4-82209d990319</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C17">
+      <value>1nF C0G 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>5 V SENSE divider noise filter; ~8.7 us nominal RC</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">5 V SENSE divider noise filter; ~8.7 us nominal RC</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C17_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a13548ac-4eec-50cd-8e85-6f3be09aeb32</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C18">
+      <value>100pF C0G 5% 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Heartbeat stage delay; ~100 ns nominal RC before Schmitt buffer</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Heartbeat stage delay; ~100 ns nominal RC before Schmitt buffer</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C18_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4ed78986-d466-5364-84b5-52cffd169849</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="C19">
+      <value>100nF X7R 10V</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
+      <description>Place at U14 supply pin</description>
+      <fields>
+        <field name="Footprint">Capacitor_SMD:C_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Place at U14 supply pin</field>
+      </fields>
+      <libsource lib="MiLaBench" part="C19_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c6ff7ff0-83ad-5c2a-9f95-966ae34703ae</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D1">
+      <value>BAS70-05-7-F</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.diodes.com/datasheet/download/BAS70.pdf</datasheet>
+      <description>Low-leakage supply OR keeps 5 V monitor alive when either rail disappears</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.diodes.com/datasheet/download/BAS70.pdf</field>
+        <field name="Description">Low-leakage supply OR keeps 5 V monitor alive when either rail disappears</field>
+      </fields>
+      <libsource lib="MiLaBench" part="D1_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16dc811a-aedc-56c5-8826-0ffc507dd073</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J1">
+      <value>BENCH_1x08</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</footprint>
+      <description>ESP interface: shared 3.3 V rail, no GPIO mapping assumed</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">ESP interface: shared 3.3 V rail, no GPIO mapping assumed</field>
+      </fields>
+      <libsource lib="MiLaBench" part="J1_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a846d939-3324-5dc8-9453-d689c96aa9c3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>BENCH_1x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Protected regulated bench 5 V upstream rail</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Protected regulated bench 5 V upstream rail</field>
+      </fields>
+      <libsource lib="MiLaBench" part="J2_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0df7e895-247b-56aa-a205-810c42f7a445</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>BENCH_1x04</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</footprint>
+      <description>External held enable: pole A 1-2 physically cuts coil feed; pole B 3-4 reports enable</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">External held enable: pole A 1-2 physically cuts coil feed; pole B 3-4 reports enable</field>
+      </fields>
+      <libsource lib="MiLaBench" part="J3_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3bcd81fe-5103-5525-9e54-3f35f58e19f1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>BENCH_1x02</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
+      <description>Physical normally-open ARM pushbutton shorts 1-2 only</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Physical normally-open ARM pushbutton shorts 1-2 only</field>
+      </fields>
+      <libsource lib="MiLaBench" part="J4_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc2ed79a-f215-501a-90c6-e1c22e5c2f5d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>BENCH_1x07</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</footprint>
+      <description>Relay board interface; physical coil feed and returned carrier 5 V continuity sense</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">Relay board interface; physical coil feed and returned carrier 5 V continuity sense</field>
+      </fields>
+      <libsource lib="MiLaBench" part="J5_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3993bc7-c89c-5567-b6f8-a0275a4c1cc8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>BENCH_1x06</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</footprint>
+      <description>3.3 V test/status points only</description>
+      <fields>
+        <field name="Footprint">Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical</field>
+        <field name="Datasheet"/>
+        <field name="Description">3.3 V test/status points only</field>
+      </fields>
+      <libsource lib="MiLaBench" part="J6_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c60c6d75-2a56-5961-8186-169902e665b0</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R1">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Watchdog fixed window setting</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Watchdog fixed window setting</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R1_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1cb4d904-7d2d-5e31-9bd7-ac6c16878a6c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R2">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Watchdog fixed reset setting</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Watchdog fixed reset setting</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R2_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>088ab27a-6198-53b6-b56f-7a455d628205</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R3">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>300 ms nominal PG33 reset release</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">300 ms nominal PG33 reset release</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R3_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8df1ca32-c190-5656-a35a-f187fedaa525</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R4">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>300 ms nominal PG5 reset release</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">300 ms nominal PG5 reset release</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R4_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ec5adedf-c4a0-5dd5-860a-86b46ce905e5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R5">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Shared open-drain health pull-up</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Shared open-drain health pull-up</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R5_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07694787-1ced-56f4-ac6f-9e38882910b2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R6">
+      <value>100k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>ARM default released; 100 ms nominal release RC</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">ARM default released; 100 ms nominal release RC</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R6_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d62f479e-38aa-5501-a99a-059152242050</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R7">
+      <value>1k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>ARM press current/RC limit</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">ARM press current/RC limit</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R7_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c5b673d6-071b-5290-9daf-5492cd192960</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R8">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Disconnected enable defaults LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Disconnected enable defaults LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R8_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f71077ce-69f5-57d5-82c6-bea552901e92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R9">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>READY defaults LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">READY defaults LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R9_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2a975d5-a68d-5abc-bce3-4913bcc9c59e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R10">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>WDI defaults LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">WDI defaults LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R10_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0b52dbd-fdaf-5edf-8cce-93100ccb21df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R11">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Relay request default LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Relay request default LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R11_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c78676ef-9fc3-5b3f-8b3a-421b17edcb6d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R12">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Relay request default LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Relay request default LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R12_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fdec3c2d-312e-5931-8b17-aa863f616d92</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R13">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Relay request default LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Relay request default LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R13_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7880602b-7c01-516a-af62-ce4d33e7a0fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R14">
+      <value>100 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Short local WDI wire series damping</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Short local WDI wire series damping</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R14_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0c912665-9a03-5478-b2ad-6955ce3e4b8c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R15">
+      <value>100 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Short local READY wire series damping</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Short local READY wire series damping</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R15_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b636ec2-7b23-5118-bf3c-129e38028f9b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R16">
+      <value>1k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>ESP hardware reset input current limit</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">ESP hardware reset input current limit</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R16_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa821f72-69be-5108-b695-02803f875ae2</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R17">
+      <value>100 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Physical enable sense series damping</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Physical enable sense series damping</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R17_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4bf9f1e-5643-532d-8355-526efde6ffb5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R18">
+      <value>1k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Permit initial MOS gate-current limit and series damping</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Permit initial MOS gate-current limit and series damping</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R18_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>edb72da2-9941-53cc-84e3-73974b3b69be</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R19">
+      <value>82k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Light permission load; parallel carrier 82k provides passive LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Light permission load; parallel carrier 82k provides passive LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R19_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c107889a-5625-5a80-9b61-0eea2fb22e80</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R20">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Permit-gate ARMED input passive LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Permit-gate ARMED input passive LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R20_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d789f16c-aee9-5679-a899-b38c85c5541c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R21">
+      <value>10k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Permit-gate QUALIFIED input passive LOW</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Permit-gate QUALIFIED input passive LOW</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R21_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f98935d0-7d46-574c-9ffb-af57a9eaa6b1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R22">
+      <value>100k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Returned carrier 5 V divider upper resistor; ~4.655 V threshold</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Returned carrier 5 V divider upper resistor; ~4.655 V threshold</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R22_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66f7d265-b79e-56e5-86c4-98d51fbd3783</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R23">
+      <value>9.53k 0.1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>5 V monitor divider lower resistor</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">5 V monitor divider lower resistor</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R23_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6f2fc7f6-bea7-51a3-ac05-ba1c4ea7497a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="R24">
+      <value>1k 1%</value>
+      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
+      <description>Heartbeat stage hold-time margin delay</description>
+      <fields>
+        <field name="Footprint">Resistor_SMD:R_0603_1608Metric</field>
+        <field name="Datasheet"/>
+        <field name="Description">Heartbeat stage hold-time margin delay</field>
+      </fields>
+      <libsource lib="MiLaBench" part="R24_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d7edcb61-c542-5077-93c4-1cf102f7af95</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U1">
+      <value>TPS3430WQDRCRQ1</value>
+      <footprint>Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3430-q1.pdf</datasheet>
+      <description>Independent window watchdog; fixed hardware settings</description>
+      <fields>
+        <field name="Footprint">Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3430-q1.pdf</field>
+        <field name="Description">Independent window watchdog; fixed hardware settings</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U1_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2dc0b434-04e6-5e7a-9149-f5b6f2b6e4e9</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U2">
+      <value>TPS3808G33QDBVRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf</datasheet>
+      <description>3.3 V and ESP hardware reset supervisor</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf</field>
+        <field name="Description">3.3 V and ESP hardware reset supervisor</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U2_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>368f3295-f521-589b-9413-ad3eeaaf2804</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U3">
+      <value>TPS3808G01QDBVRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf</datasheet>
+      <description>5 V adjustable monitor supplied by isolated diode-OR of both rails</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf</field>
+        <field name="Description">5 V adjustable monitor supplied by isolated diode-OR of both rails</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U3_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>706091f4-2146-5ea4-97cb-1328ff8ed458</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U4">
+      <value>SN74LVC1G17QDCKRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf</datasheet>
+      <description>Clean open-drain fault edges before ordinary logic</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf</field>
+        <field name="Description">Clean open-drain fault edges before ordinary logic</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U4_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d59c1c7-0624-5de9-a27b-38c5823bf62f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U5">
+      <value>SN74LVC1G17QDCKRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf</datasheet>
+      <description>Clean physical enable auxiliary-contact edges</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf</field>
+        <field name="Description">Clean physical enable auxiliary-contact edges</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U5_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6567b593-9f71-53b8-879c-238bcac1abc4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U6">
+      <value>SN74LVC2G14IDCKRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc2g14-q1.pdf</datasheet>
+      <description>Invert WDI falling edges and debounce physical ARM</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc2g14-q1.pdf</field>
+        <field name="Description">Invert WDI falling edges and debounce physical ARM</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U6_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>964776fa-8f81-5907-b87a-3ca0ea43f470</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U7">
+      <value>SN74LVC1G27DCKR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-363_SC-70-6</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g27.pdf</datasheet>
+      <description>All three relay requests must be LOW at ARM edge; catalog bench part</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-363_SC-70-6</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g27.pdf</field>
+        <field name="Description">All three relay requests must be LOW at ARM edge; catalog bench part</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U7_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da92f3ca-1230-503d-9c99-368c174107cf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U8">
+      <value>SN74LVC1G08QDCKRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf</datasheet>
+      <description>Combine rail/watchdog health and firmware READY</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf</field>
+        <field name="Description">Combine rail/watchdog health and firmware READY</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U8_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>394f489a-9095-55d2-aa79-8270833c6229</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U9">
+      <value>SN74LVC1G08QDCKRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf</datasheet>
+      <description>Async clear source includes physical held enable</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf</field>
+        <field name="Description">Async clear source includes physical held enable</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U9_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d1e81ee9-73f1-5859-b81e-6e2f4226993a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U10">
+      <value>SN74LVC74AQPWRG4Q1</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc74a-q1.pdf</datasheet>
+      <description>Two WDI falling edges after READY/enable; one full inter-edge cycle</description>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc74a-q1.pdf</field>
+        <field name="Description">Two WDI falling edges after READY/enable; one full inter-edge cycle</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U10_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa27d996-5fea-52b9-8e7b-9e3c49f0682d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U11">
+      <value>SN74LVC74AQPWRG4Q1</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc74a-q1.pdf</datasheet>
+      <description>Manual ARM edge latch; faults clear without automatic restart</description>
+      <fields>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc74a-q1.pdf</field>
+        <field name="Description">Manual ARM edge latch; faults clear without automatic restart</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U11_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a36aaeb1-40a4-526b-be05-b371b5ea9b3f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="9"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U12">
+      <value>SN74LVC1G08QDCKRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf</datasheet>
+      <description>ARM edge accepted only after heartbeat cycle and zero requests</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf</field>
+        <field name="Description">ARM edge accepted only after heartbeat cycle and zero requests</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U12_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae6cf94d-ef2b-509f-91b4-815d2e98e43a</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U13">
+      <value>SN74LVC1G08QDCKRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf</datasheet>
+      <description>3.3 V lightly loaded permission driver; output is for carrier gate only</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf</field>
+        <field name="Description">3.3 V lightly loaded permission driver; output is for carrier gate only</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U13_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>93463649-99ce-5253-83b6-7cb7eb1d56df</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="U14">
+      <value>SN74LVC1G17QDCKRQ1</value>
+      <footprint>Package_TO_SOT_SMD:SOT-353_SC-70-5</footprint>
+      <datasheet>https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf</datasheet>
+      <description>Buffered HB_ONE delay provides positive same-clock DFF hold margin</description>
+      <fields>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-353_SC-70-5</field>
+        <field name="Datasheet">https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf</field>
+        <field name="Description">Buffered HB_ONE delay provides positive same-clock DFF hold margin</field>
+      </fields>
+      <libsource lib="MiLaBench" part="U14_BLOCK" description=""/>
+      <property name="Sheetname" value="mila_passive_bypass_supervisor_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_supervisor_rev_a.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8663f90c-6a1d-5bd5-a570-3d90acdc1bbf</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MiLaBench" part="C10_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C11_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C12_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C13_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C14_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1uF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C15_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1uF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C16_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1uF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C17_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1nF C0G 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C18_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100pF C0G 5% 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C19_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C1_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C2_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C3_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C4_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C5_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C6_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C7_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C8_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="C9_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100nF X7R 10V</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="D1_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BAS70-05-7-F</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+        <pin num="3" name="K1_K2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="J1_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BENCH_1x08</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="V3V3" type="passive"/>
+        <pin num="3" name="ESP_RESET_HEADER" type="passive"/>
+        <pin num="4" name="WDI_HEADER" type="passive"/>
+        <pin num="5" name="READY_HEADER" type="passive"/>
+        <pin num="6" name="REQ_L" type="passive"/>
+        <pin num="7" name="REQ_7" type="passive"/>
+        <pin num="8" name="REQ_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="J2_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BENCH_1x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5_SUP" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="J3_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BENCH_1x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="V5_SUP" type="passive"/>
+        <pin num="2" name="V5_COIL_SWITCHED" type="passive"/>
+        <pin num="3" name="V3V3" type="passive"/>
+        <pin num="4" name="DEADMAN_HEADER" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="J4_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BENCH_1x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="ARM_SW" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="J5_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BENCH_1x07</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="V5_COIL_SWITCHED" type="passive"/>
+        <pin num="3" name="COIL_PERMIT" type="passive"/>
+        <pin num="4" name="REQ_L" type="passive"/>
+        <pin num="5" name="REQ_7" type="passive"/>
+        <pin num="6" name="REQ_8" type="passive"/>
+        <pin num="7" name="CARRIER_5V_FEEDBACK" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="J6_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">BENCH_1x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="HEALTH_OK" type="passive"/>
+        <pin num="3" name="QUALIFIED" type="passive"/>
+        <pin num="4" name="HB_GOOD" type="passive"/>
+        <pin num="5" name="ARMED" type="passive"/>
+        <pin num="6" name="ZERO_REQ" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R10_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R11_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R12_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R13_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R14_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R15_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R16_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R17_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R18_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R19_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">82k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R1_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R20_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R21_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R22_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100k 0.1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R23_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">9.53k 0.1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R24_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R2_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R3_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R4_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R5_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R6_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">100k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R7_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">1k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R8_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="R9_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">10k 1%</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U10_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC74AQPWRG4Q1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1CLR_N" type="input"/>
+        <pin num="2" name="1D" type="input"/>
+        <pin num="3" name="1CLK" type="input"/>
+        <pin num="4" name="1PRE_N" type="input"/>
+        <pin num="5" name="1Q" type="output"/>
+        <pin num="6" name="1Q_N" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="2Q_N" type="output"/>
+        <pin num="9" name="2Q" type="output"/>
+        <pin num="10" name="2PRE_N" type="input"/>
+        <pin num="11" name="2CLK" type="input"/>
+        <pin num="12" name="2D" type="input"/>
+        <pin num="13" name="2CLR_N" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U11_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC74AQPWRG4Q1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1CLR_N" type="input"/>
+        <pin num="2" name="1D" type="input"/>
+        <pin num="3" name="1CLK" type="input"/>
+        <pin num="4" name="1PRE_N" type="input"/>
+        <pin num="5" name="1Q" type="output"/>
+        <pin num="6" name="1Q_N" type="output"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="2Q_N" type="output"/>
+        <pin num="9" name="2Q" type="output"/>
+        <pin num="10" name="2PRE_N" type="input"/>
+        <pin num="11" name="2CLK" type="input"/>
+        <pin num="12" name="2D" type="input"/>
+        <pin num="13" name="2CLR_N" type="input"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U12_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G08QDCKRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U13_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G08QDCKRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U14_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G17QDCKRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U1_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3430WQDRCRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="VDD1" type="power_in"/>
+        <pin num="2" name="CWD" type="input"/>
+        <pin num="3" name="SET0" type="input"/>
+        <pin num="4" name="CRST" type="input"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="SET1" type="input"/>
+        <pin num="7" name="WDI" type="input"/>
+        <pin num="8" name="WDO_N" type="open_collector"/>
+        <pin num="9" name="NC" type="no_connect"/>
+        <pin num="10" name="VDD2" type="power_in"/>
+        <pin num="11" name="EP" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U2_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3808G33QDBVRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET_N" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="MR_N" type="input"/>
+        <pin num="4" name="CT" type="input"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U3_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TPS3808G01QDBVRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="RESET_N" type="open_collector"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="MR_N" type="input"/>
+        <pin num="4" name="CT" type="input"/>
+        <pin num="5" name="SENSE" type="input"/>
+        <pin num="6" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U4_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G17QDCKRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U5_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G17QDCKRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="A" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U6_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC2G14IDCKRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="2A" type="input"/>
+        <pin num="4" name="2Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="1Y" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U7_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G27DCKR</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="B" type="input"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+        <pin num="6" name="C" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U8_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G08QDCKRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLaBench" part="U9_BLOCK">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74LVC1G08QDCKRQ1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="input"/>
+        <pin num="2" name="B" type="input"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="Y" type="output"/>
+        <pin num="5" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MiLaBench">
+      <uri>${KIPRJMOD}/MiLaBench.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/ARMED" class="Default">
+      <node ref="J6" pin="5" pinfunction="ARMED_5" pintype="passive"/>
+      <node ref="R20" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U11" pin="5" pinfunction="1Q_5" pintype="output"/>
+      <node ref="U13" pin="1" pinfunction="A_1" pintype="input"/>
+    </net>
+    <net code="2" name="/ARM_CLK" class="Default">
+      <node ref="U11" pin="3" pinfunction="1CLK_3" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="2Y_4" pintype="output"/>
+    </net>
+    <net code="3" name="/ARM_D" class="Default">
+      <node ref="U11" pin="2" pinfunction="1D_2" pintype="input"/>
+      <node ref="U12" pin="4" pinfunction="Y_4" pintype="output"/>
+    </net>
+    <net code="4" name="/ARM_RC" class="Default">
+      <node ref="C14" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U6" pin="3" pinfunction="2A_3" pintype="input"/>
+    </net>
+    <net code="5" name="/ARM_SW" class="Default">
+      <node ref="J4" pin="1" pinfunction="ARM_SW_1" pintype="passive"/>
+      <node ref="R7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="6" name="/CARRIER_5V_FEEDBACK" class="Default">
+      <node ref="J5" pin="7" pinfunction="CARRIER_5V_FEEDBACK_7" pintype="passive"/>
+      <node ref="R22" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="7" name="/COIL_PERMIT" class="Default">
+      <node ref="J5" pin="3" pinfunction="COIL_PERMIT_3" pintype="passive"/>
+      <node ref="R18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R19" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="8" name="/DEADMAN_HEADER" class="Default">
+      <node ref="J3" pin="4" pinfunction="DEADMAN_HEADER_4" pintype="passive"/>
+      <node ref="R17" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="9" name="/DEADMAN_OK" class="Default">
+      <node ref="U5" pin="4" pinfunction="Y_4" pintype="output"/>
+      <node ref="U9" pin="2" pinfunction="B_2" pintype="input"/>
+    </net>
+    <net code="10" name="/DEADMAN_RAW" class="Default">
+      <node ref="R17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="A_2" pintype="input"/>
+    </net>
+    <net code="11" name="/ESP_RESET_HEADER" class="Default">
+      <node ref="J1" pin="3" pinfunction="ESP_RESET_HEADER_3" pintype="passive"/>
+      <node ref="R16" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="12" name="/ESP_RESET_N" class="Default">
+      <node ref="R16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="MR_N_3" pintype="input"/>
+    </net>
+    <net code="13" name="/GND" class="Default">
+      <node ref="C1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C16" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C18" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C6" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="C9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="R10" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R11" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R12" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R13" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R19" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R20" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R21" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R23" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R8" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="EP_11" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="SET0_3" pintype="input"/>
+      <node ref="U1" pin="5" pinfunction="GND_5" pintype="power_in"/>
+      <node ref="U1" pin="6" pinfunction="SET1_6" pintype="input"/>
+      <node ref="U10" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U11" pin="11" pinfunction="2CLK_11" pintype="input"/>
+      <node ref="U11" pin="12" pinfunction="2D_12" pintype="input"/>
+      <node ref="U11" pin="13" pinfunction="2CLR_N_13" pintype="input"/>
+      <node ref="U11" pin="7" pinfunction="GND_7" pintype="power_in"/>
+      <node ref="U12" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U13" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U14" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U2" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U4" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U5" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U6" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U7" pin="2" pinfunction="GND_2" pintype="power_in"/>
+      <node ref="U8" pin="3" pinfunction="GND_3" pintype="power_in"/>
+      <node ref="U9" pin="3" pinfunction="GND_3" pintype="power_in"/>
+    </net>
+    <net code="14" name="/HB_CLK" class="Default">
+      <node ref="U10" pin="11" pinfunction="2CLK_11" pintype="input"/>
+      <node ref="U10" pin="3" pinfunction="1CLK_3" pintype="input"/>
+      <node ref="U6" pin="6" pinfunction="1Y_6" pintype="output"/>
+    </net>
+    <net code="15" name="/HB_GOOD" class="Default">
+      <node ref="J6" pin="4" pinfunction="HB_GOOD_4" pintype="passive"/>
+      <node ref="U10" pin="9" pinfunction="2Q_9" pintype="output"/>
+      <node ref="U12" pin="1" pinfunction="A_1" pintype="input"/>
+    </net>
+    <net code="16" name="/HB_ONE" class="Default">
+      <node ref="R24" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="1Q_5" pintype="output"/>
+    </net>
+    <net code="17" name="/HB_ONE_SAFE" class="Default">
+      <node ref="U10" pin="12" pinfunction="2D_12" pintype="input"/>
+      <node ref="U14" pin="4" pinfunction="Y_4" pintype="output"/>
+    </net>
+    <net code="18" name="/HB_STAGE_RC" class="Default">
+      <node ref="C18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R24" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U14" pin="2" pinfunction="A_2" pintype="input"/>
+    </net>
+    <net code="19" name="/HEALTH_N" class="Default">
+      <node ref="R5" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="WDO_N_8" pintype="open_collector"/>
+      <node ref="U2" pin="1" pinfunction="RESET_N_1" pintype="open_collector"/>
+      <node ref="U3" pin="1" pinfunction="RESET_N_1" pintype="open_collector"/>
+      <node ref="U4" pin="2" pinfunction="A_2" pintype="input"/>
+    </net>
+    <net code="20" name="/HEALTH_OK" class="Default">
+      <node ref="J6" pin="2" pinfunction="HEALTH_OK_2" pintype="passive"/>
+      <node ref="U4" pin="4" pinfunction="Y_4" pintype="output"/>
+      <node ref="U8" pin="1" pinfunction="A_1" pintype="input"/>
+    </net>
+    <net code="21" name="/HEALTH_READY" class="Default">
+      <node ref="U8" pin="4" pinfunction="Y_4" pintype="output"/>
+      <node ref="U9" pin="1" pinfunction="A_1" pintype="input"/>
+    </net>
+    <net code="22" name="/PERMIT_DRIVER" class="Default">
+      <node ref="R18" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U13" pin="4" pinfunction="Y_4" pintype="output"/>
+    </net>
+    <net code="23" name="/PG5_CT" class="Default">
+      <node ref="R4" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="CT_4" pintype="input"/>
+    </net>
+    <net code="24" name="/PG33_CT" class="Default">
+      <node ref="R3" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="CT_4" pintype="input"/>
+    </net>
+    <net code="25" name="/QUALIFIED" class="Default">
+      <node ref="J6" pin="3" pinfunction="QUALIFIED_3" pintype="passive"/>
+      <node ref="R21" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U10" pin="1" pinfunction="1CLR_N_1" pintype="input"/>
+      <node ref="U10" pin="13" pinfunction="2CLR_N_13" pintype="input"/>
+      <node ref="U11" pin="1" pinfunction="1CLR_N_1" pintype="input"/>
+      <node ref="U13" pin="2" pinfunction="B_2" pintype="input"/>
+      <node ref="U9" pin="4" pinfunction="Y_4" pintype="output"/>
+    </net>
+    <net code="26" name="/READY" class="Default">
+      <node ref="R15" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="B_2" pintype="input"/>
+    </net>
+    <net code="27" name="/READY_HEADER" class="Default">
+      <node ref="J1" pin="5" pinfunction="READY_HEADER_5" pintype="passive"/>
+      <node ref="R15" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="28" name="/REQ_7" class="Default">
+      <node ref="J1" pin="7" pinfunction="REQ_7_7" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="REQ_7_5" pintype="passive"/>
+      <node ref="R12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="3" pinfunction="B_3" pintype="input"/>
+    </net>
+    <net code="29" name="/REQ_8" class="Default">
+      <node ref="J1" pin="8" pinfunction="REQ_8_8" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="REQ_8_6" pintype="passive"/>
+      <node ref="R13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="6" pinfunction="C_6" pintype="input"/>
+    </net>
+    <net code="30" name="/REQ_L" class="Default">
+      <node ref="J1" pin="6" pinfunction="REQ_L_6" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="REQ_L_4" pintype="passive"/>
+      <node ref="R11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U7" pin="1" pinfunction="A_1" pintype="input"/>
+    </net>
+    <net code="31" name="/V3V3" class="Default">
+      <node ref="C1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C11" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C12" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C19" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="C9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="A1_1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="V3V3_2" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="V3V3_3" pintype="passive"/>
+      <node ref="R1" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R2" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDD1_1" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="VDD2_10" pintype="power_in"/>
+      <node ref="U10" pin="10" pinfunction="2PRE_N_10" pintype="input"/>
+      <node ref="U10" pin="14" pinfunction="VCC_14" pintype="power_in"/>
+      <node ref="U10" pin="2" pinfunction="1D_2" pintype="input"/>
+      <node ref="U10" pin="4" pinfunction="1PRE_N_4" pintype="input"/>
+      <node ref="U11" pin="10" pinfunction="2PRE_N_10" pintype="input"/>
+      <node ref="U11" pin="14" pinfunction="VCC_14" pintype="power_in"/>
+      <node ref="U11" pin="4" pinfunction="1PRE_N_4" pintype="input"/>
+      <node ref="U12" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U13" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U14" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U2" pin="5" pinfunction="SENSE_5" pintype="input"/>
+      <node ref="U2" pin="6" pinfunction="VDD_6" pintype="power_in"/>
+      <node ref="U4" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U5" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U7" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U8" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+      <node ref="U9" pin="5" pinfunction="VCC_5" pintype="power_in"/>
+    </net>
+    <net code="32" name="/V5_COIL_SWITCHED" class="Default">
+      <node ref="J3" pin="2" pinfunction="V5_COIL_SWITCHED_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="V5_COIL_SWITCHED_2" pintype="passive"/>
+    </net>
+    <net code="33" name="/V5_SENSE" class="Default">
+      <node ref="C17" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R22" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="R23" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="SENSE_5" pintype="input"/>
+    </net>
+    <net code="34" name="/V5_SUP" class="Default">
+      <node ref="C16" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A2_2" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="V5_SUP_1" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="V5_SUP_1" pintype="passive"/>
+    </net>
+    <net code="35" name="/V_PG5_SUP" class="Default">
+      <node ref="C3" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="D1" pin="3" pinfunction="K1_K2_3" pintype="passive"/>
+      <node ref="R4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="MR_N_3" pintype="input"/>
+      <node ref="U3" pin="6" pinfunction="VDD_6" pintype="power_in"/>
+    </net>
+    <net code="36" name="/WDI" class="Default">
+      <node ref="R10" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="R14" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="WDI_7" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="1A_1" pintype="input"/>
+    </net>
+    <net code="37" name="/WDI_HEADER" class="Default">
+      <node ref="J1" pin="4" pinfunction="WDI_HEADER_4" pintype="passive"/>
+      <node ref="R14" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="38" name="/WD_CRST" class="Default">
+      <node ref="R2" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="CRST_4" pintype="input"/>
+    </net>
+    <net code="39" name="/WD_CWD" class="Default">
+      <node ref="R1" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="CWD_2" pintype="input"/>
+    </net>
+    <net code="40" name="/ZERO_REQ" class="Default">
+      <node ref="J6" pin="6" pinfunction="ZERO_REQ_6" pintype="passive"/>
+      <node ref="U12" pin="2" pinfunction="B_2" pintype="input"/>
+      <node ref="U7" pin="4" pinfunction="Y_4" pintype="output"/>
+    </net>
+    <net code="41" name="unconnected-(U1-NC-Pad9)" class="Default">
+      <node ref="U1" pin="9" pinfunction="NC_9" pintype="no_connect"/>
+    </net>
+    <net code="42" name="unconnected-(U4-NC-Pad1)" class="Default">
+      <node ref="U4" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="43" name="unconnected-(U5-NC-Pad1)" class="Default">
+      <node ref="U5" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+    <net code="44" name="unconnected-(U10-1Q_N-Pad6)" class="Default">
+      <node ref="U10" pin="6" pinfunction="1Q_N_6" pintype="output+no_connect"/>
+    </net>
+    <net code="45" name="unconnected-(U10-2Q_N-Pad8)" class="Default">
+      <node ref="U10" pin="8" pinfunction="2Q_N_8" pintype="output+no_connect"/>
+    </net>
+    <net code="46" name="unconnected-(U11-1Q_N-Pad6)" class="Default">
+      <node ref="U11" pin="6" pinfunction="1Q_N_6" pintype="output+no_connect"/>
+    </net>
+    <net code="47" name="unconnected-(U11-2Q-Pad9)" class="Default">
+      <node ref="U11" pin="9" pinfunction="2Q_9" pintype="output+no_connect"/>
+    </net>
+    <net code="48" name="unconnected-(U11-2Q_N-Pad8)" class="Default">
+      <node ref="U11" pin="8" pinfunction="2Q_N_8" pintype="output+no_connect"/>
+    </net>
+    <net code="49" name="unconnected-(U14-NC-Pad1)" class="Default">
+      <node ref="U14" pin="1" pinfunction="NC_1" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>

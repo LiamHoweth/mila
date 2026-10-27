@@ -1,0 +1,25 @@
+Drill report for mila_passive_bypass_bench_rev_a.kicad_pcb
+Created on 2026-10-07T12:07:32
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'mila_passive_bypass_bench_rev_a-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (29 holes))
+    T2  0.850mm  0.0335"  (32 holes))
+    T3  1.000mm  0.0394"  (24 holes))
+
+    Total plated holes count 85
+
+
+Drill file 'mila_passive_bypass_bench_rev_a-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  3.200mm  0.1260"  (4 holes))
+
+    Total unplated holes count 4

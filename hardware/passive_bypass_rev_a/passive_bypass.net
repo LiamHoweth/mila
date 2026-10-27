@@ -1,0 +1,1160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/Users/howeth/Desktop/codex/Hardware/MiLa/hardware/passive_bypass_rev_a/mila_passive_bypass_bench_rev_a.kicad_sch</source>
+    <date>2026-10-07T12:07:29</date>
+    <tool>Eeschema 10.0.6</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>MiLa passive bypass: isolated BENCH ONLY</title>
+        <company/>
+        <rev>A</rev>
+        <date>2026-10-07</date>
+        <source>mila_passive_bypass_bench_rev_a.kicad_sch</source>
+        <comment number="1" value="Contacts: simulator 0-5 V, &lt;=1 mA only; no vehicle"/>
+        <comment number="2" value="External watchdog/supervisor and physical series enable required"/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="D1">
+      <value>1N4148W-E3-08</value>
+      <footprint>MiLa_Bench:D_SOD123</footprint>
+      <datasheet>https://www.vishay.com/docs/86356/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:D_SOD123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/86356/1n4148w.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="D" description="Diode"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30743c69-0ac8-53ec-93d5-509d68ec77f4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D2">
+      <value>1N4148W-E3-08</value>
+      <footprint>MiLa_Bench:D_SOD123</footprint>
+      <datasheet>https://www.vishay.com/docs/86356/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:D_SOD123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/86356/1n4148w.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="D" description="Diode"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d32e86b6-d469-512b-bb53-4b13d2d417a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D3">
+      <value>1N4148W-E3-08</value>
+      <footprint>MiLa_Bench:D_SOD123</footprint>
+      <datasheet>https://www.vishay.com/docs/86356/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:D_SOD123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/86356/1n4148w.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="D" description="Diode"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd57ceea-681a-5505-818a-8ae45156c879</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="D4">
+      <value>1N4148W-E3-08</value>
+      <footprint>MiLa_Bench:D_SOD123</footprint>
+      <datasheet>https://www.vishay.com/docs/86356/1n4148w.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:D_SOD123</field>
+        <field name="Datasheet">https://www.vishay.com/docs/86356/1n4148w.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="D" description="Diode"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="diode"/>
+      <property name="ki_fp_filters" value="TO-???* *_Diode_* *SingleDiode* D_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7bba772-aa5a-5ac2-ab17-f64093faa2a7</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4B1">
+      <value>J4 SIGNAL SUBSET</value>
+      <footprint>MiLa_Bench:PinHeader_2x06</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:PinHeader_2x06</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="Conn_02x06_Odd_Even" description="Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_2x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>83f5a02c-9644-58f3-a932-7a535d35142b</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JCTRL1">
+      <value>REQUESTS / PERMIT / 5V FEEDBACK</value>
+      <footprint>MiLa_Bench:PinHeader_1x06</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:PinHeader_1x06</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="Conn_01x06" description="Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6695a08d-e1bd-54a6-8066-89849bb59852</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JDAC1">
+      <value>J5/J6 DAC SIGNALS</value>
+      <footprint>MiLa_Bench:PinHeader_1x04</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:PinHeader_1x04</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6c89996-7732-530d-a4bc-ea62c9f565e1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="JPWR1">
+      <value>5V RAW AFTER EXTERNAL ENABLE</value>
+      <footprint>MiLa_Bench:PinHeader_1x02</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:PinHeader_1x02</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="connector"/>
+      <property name="ki_fp_filters" value="Connector*:*_1x??_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1fb6ad3f-3636-5077-bf37-f23869a093ff</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q1">
+      <value>AO3400A</value>
+      <footprint>MiLa_Bench:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>015f834d-69bb-5049-9652-69179f9583e8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q2">
+      <value>AO3400A</value>
+      <footprint>MiLa_Bench:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b11003c-9e06-5b0c-8901-1b6925e251a4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q3">
+      <value>AO3400A</value>
+      <footprint>MiLa_Bench:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>028e3a32-2fa0-5814-a2a1-9fcbcae47538</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q4">
+      <value>AO3400A</value>
+      <footprint>MiLa_Bench:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4038b64e-588e-5788-b72c-28e50c02e4c3</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q5">
+      <value>AO3401A</value>
+      <footprint>MiLa_Bench:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3401A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3401A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="AO3401A" description="-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="P-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e5045f55-5b2a-59f7-a052-3b8f427df749</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="Q6">
+      <value>AO3400A</value>
+      <footprint>MiLa_Bench:SOT-23</footprint>
+      <datasheet>https://www.aosmd.com/res/data_sheets/AO3400A.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:SOT-23</field>
+        <field name="Datasheet">https://www.aosmd.com/res/data_sheets/AO3400A.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="AO3400A" description="30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <property name="ki_fp_filters" value="SOT?23*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>953a2380-ca3b-50b1-8dba-20288c93164d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RG1">
+      <value>330R</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ea3d3a52-5a4e-5b7c-8e1e-109cf59c68f5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RG2">
+      <value>330R</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d449a439-ec60-5fa0-9270-2aaa938cc833</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RG3">
+      <value>330R</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1648ea03-8060-504d-97cd-8b32288a9ffd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RG4">
+      <value>330R</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b07e922a-7ea9-53f4-b2d4-2f064d99da4c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RG6">
+      <value>330R</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>362dad86-2f72-57bc-b339-a7f6fccffedb</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RLY1">
+      <value>G6K-2P-Y DC5</value>
+      <footprint>MiLa_Bench:Relay_G6K_2P_Y_corrected</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:Relay_G6K_2P_Y_corrected</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="G6K-2" description="Miniature 2-pole relay, Single-side Stable"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="Miniature Relay Dual Pole DPDT Omron"/>
+      <property name="ki_fp_filters" value="Relay*DPDT*Omron*G6K?2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ef08c831-238b-566c-b7b0-d2b592811a36</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RLY2">
+      <value>G6K-2P-Y DC5</value>
+      <footprint>MiLa_Bench:Relay_G6K_2P_Y_corrected</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:Relay_G6K_2P_Y_corrected</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="G6K-2" description="Miniature 2-pole relay, Single-side Stable"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="Miniature Relay Dual Pole DPDT Omron"/>
+      <property name="ki_fp_filters" value="Relay*DPDT*Omron*G6K?2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4a5f1348-00f6-57f1-8102-a96a04ce6068</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RLY3">
+      <value>G6K-2P-Y DC5</value>
+      <footprint>MiLa_Bench:Relay_G6K_2P_Y_corrected</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:Relay_G6K_2P_Y_corrected</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="G6K-2" description="Miniature 2-pole relay, Single-side Stable"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="Miniature Relay Dual Pole DPDT Omron"/>
+      <property name="ki_fp_filters" value="Relay*DPDT*Omron*G6K?2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0a0675f5-f9a8-54a9-9e98-a93cd2d9d6da</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RLY4">
+      <value>G6K-2P-Y DC5</value>
+      <footprint>MiLa_Bench:Relay_G6K_2P_Y_corrected</footprint>
+      <datasheet>https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</datasheet>
+      <fields>
+        <field name="Footprint">MiLa_Bench:Relay_G6K_2P_Y_corrected</field>
+        <field name="Datasheet">https://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</field>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="G6K-2" description="Miniature 2-pole relay, Single-side Stable"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="Miniature Relay Dual Pole DPDT Omron"/>
+      <property name="ki_fp_filters" value="Relay*DPDT*Omron*G6K?2*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3700e6c7-165b-52bf-95bf-d4e5da7ce957</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="8"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="7"/>
+            <pin num="6"/>
+            <pin num="5"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RPD1">
+      <value>10k</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d261cde3-4cdf-5d0f-a826-aa16bbcd25e4</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RPD2">
+      <value>10k</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c03192f8-3c1d-58d5-a316-3e20fdebf4d5</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RPD3">
+      <value>10k</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>662ef723-80d2-5505-b222-1b7d68d68727</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RPD4">
+      <value>10k</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0f4b6a40-8a5e-58a0-9f54-b8ab66c1b0fc</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RPD6">
+      <value>82k</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>eaf143a8-7599-5303-9ae4-c35bdf5e04fd</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="RPG1">
+      <value>10k</value>
+      <footprint>MiLa_Bench:R_0805</footprint>
+      <fields>
+        <field name="Footprint">MiLa_Bench:R_0805</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="MiLa_Bench" part="R" description="Resistor"/>
+      <property name="Sheetname" value="mila_passive_bypass_bench_rev_a"/>
+      <property name="Sheetfile" value="mila_passive_bypass_bench_rev_a.kicad_sch"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <property name="ki_fp_filters" value="R_*"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a97b1e67-3744-5335-9169-984254abf177</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="MiLa_Bench" part="AO3400A">
+      <description>30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3400A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf</field>
+        <field name="Description">30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLa_Bench" part="AO3401A">
+      <description>-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</description>
+      <docs>http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">AO3401A</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://www.aosmd.com/pdfs/datasheet/AO3401A.pdf</field>
+        <field name="Description">-4.0A Id, -30V Vds, P-Channel MOSFET, SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="S" type="passive"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLa_Bench" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLa_Bench" part="Conn_01x04">
+      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x04</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLa_Bench" part="Conn_01x06">
+      <description>Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x06</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLa_Bench" part="Conn_02x06_Odd_Even">
+      <description>Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x06_Odd_Even</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Generic connector, double row, 02x06, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLa_Bench" part="D">
+      <description>Diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Diode</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLa_Bench" part="G6K-2">
+      <description>Miniature 2-pole relay, Single-side Stable</description>
+      <docs>http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</docs>
+      <footprints>
+        <fp>Relay*DPDT*Omron*G6K?2*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">K</field>
+        <field name="Value">G6K-2</field>
+        <field name="Footprint"/>
+        <field name="Datasheet">http://omronfs.omron.com/en_US/ecb/products/pdf/en-g6k.pdf</field>
+        <field name="Description">Miniature 2-pole relay, Single-side Stable</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+        <pin num="7" name="" type="passive"/>
+        <pin num="8" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="MiLa_Bench" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description">Resistor</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="MiLa_Bench">
+      <uri>${KIPRJMOD}/MiLa_Bench.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="5V_RAW" class="Default">
+      <node ref="JCTRL1" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="JPWR1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="RPG1" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="COIL_5V" class="Default">
+      <node ref="D1" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D3" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K_1" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="RLY1" pin="1" pintype="passive"/>
+      <node ref="RLY2" pin="1" pintype="passive"/>
+      <node ref="RLY3" pin="1" pintype="passive"/>
+      <node ref="RLY4" pin="1" pintype="passive"/>
+    </net>
+    <net code="3" name="COIL_PERMIT" class="Default">
+      <node ref="JCTRL1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="RG6" pin="1" pintype="passive"/>
+    </net>
+    <net code="4" name="COIL_R1" class="Default">
+      <node ref="D1" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="RLY1" pin="8" pintype="passive"/>
+    </net>
+    <net code="5" name="COIL_R2" class="Default">
+      <node ref="D2" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="RLY2" pin="8" pintype="passive"/>
+    </net>
+    <net code="6" name="COIL_R3" class="Default">
+      <node ref="D3" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="RLY3" pin="8" pintype="passive"/>
+    </net>
+    <net code="7" name="COIL_R4" class="Default">
+      <node ref="D4" pin="2" pinfunction="A_2" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="RLY4" pin="8" pintype="passive"/>
+    </net>
+    <net code="8" name="GND" class="Default">
+      <node ref="JCTRL1" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="JPWR1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="Q1" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q3" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="S_2" pintype="passive"/>
+      <node ref="RPD1" pin="2" pintype="passive"/>
+      <node ref="RPD2" pin="2" pintype="passive"/>
+      <node ref="RPD3" pin="2" pintype="passive"/>
+      <node ref="RPD4" pin="2" pintype="passive"/>
+      <node ref="RPD6" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="G_PERMIT" class="Default">
+      <node ref="Q6" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="RG6" pin="2" pintype="passive"/>
+      <node ref="RPD6" pin="1" pintype="passive"/>
+    </net>
+    <net code="10" name="G_R1" class="Default">
+      <node ref="Q1" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="RG1" pin="2" pintype="passive"/>
+      <node ref="RPD1" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="G_R2" class="Default">
+      <node ref="Q2" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="RG2" pin="2" pintype="passive"/>
+      <node ref="RPD2" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="G_R3" class="Default">
+      <node ref="Q3" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="RG3" pin="2" pintype="passive"/>
+      <node ref="RPD3" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="G_R4" class="Default">
+      <node ref="Q4" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="RG4" pin="2" pintype="passive"/>
+      <node ref="RPD4" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="J4_8" class="Default">
+      <node ref="J4B1" pin="12" pinfunction="Pin_12_12" pintype="passive"/>
+      <node ref="RLY3" pin="4" pintype="passive"/>
+      <node ref="RLY4" pin="2" pintype="passive"/>
+    </net>
+    <net code="15" name="J4_9" class="Default">
+      <node ref="J4B1" pin="10" pinfunction="Pin_10_10" pintype="passive"/>
+      <node ref="RLY3" pin="2" pintype="passive"/>
+      <node ref="RLY4" pin="4" pintype="passive"/>
+    </net>
+    <net code="16" name="J4_10" class="Default">
+      <node ref="J4B1" pin="8" pinfunction="Pin_8_8" pintype="passive"/>
+      <node ref="RLY2" pin="7" pintype="passive"/>
+    </net>
+    <net code="17" name="J4_11" class="Default">
+      <node ref="J4B1" pin="6" pinfunction="Pin_6_6" pintype="passive"/>
+      <node ref="RLY2" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="J4_12" class="Default">
+      <node ref="J4B1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="RLY1" pin="7" pintype="passive"/>
+    </net>
+    <net code="19" name="J4_13" class="Default">
+      <node ref="J4B1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="RLY1" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="J4_14" class="Default">
+      <node ref="J4B1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="RLY1" pin="3" pintype="passive"/>
+    </net>
+    <net code="21" name="J4_15" class="Default">
+      <node ref="J4B1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="RLY1" pin="6" pintype="passive"/>
+    </net>
+    <net code="22" name="J4_16" class="Default">
+      <node ref="J4B1" pin="5" pinfunction="Pin_5_5" pintype="passive"/>
+      <node ref="RLY2" pin="3" pintype="passive"/>
+    </net>
+    <net code="23" name="J4_17" class="Default">
+      <node ref="J4B1" pin="7" pinfunction="Pin_7_7" pintype="passive"/>
+      <node ref="RLY2" pin="6" pintype="passive"/>
+    </net>
+    <net code="24" name="J4_18" class="Default">
+      <node ref="J4B1" pin="9" pinfunction="Pin_9_9" pintype="passive"/>
+      <node ref="RLY3" pin="3" pintype="passive"/>
+    </net>
+    <net code="25" name="J4_19" class="Default">
+      <node ref="J4B1" pin="11" pinfunction="Pin_11_11" pintype="passive"/>
+      <node ref="RLY4" pin="3" pintype="passive"/>
+    </net>
+    <net code="26" name="J5_10" class="Default">
+      <node ref="JDAC1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="RLY1" pin="4" pintype="passive"/>
+    </net>
+    <net code="27" name="J5_11" class="Default">
+      <node ref="JDAC1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="RLY1" pin="5" pintype="passive"/>
+    </net>
+    <net code="28" name="J6_8" class="Default">
+      <node ref="JDAC1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="RLY2" pin="4" pintype="passive"/>
+    </net>
+    <net code="29" name="J6_9" class="Default">
+      <node ref="JDAC1" pin="4" pinfunction="Pin_4_4" pintype="passive"/>
+      <node ref="RLY2" pin="5" pintype="passive"/>
+    </net>
+    <net code="30" name="P_GATE" class="Default">
+      <node ref="Q5" pin="1" pinfunction="G_1" pintype="input"/>
+      <node ref="Q6" pin="3" pinfunction="D_3" pintype="passive"/>
+      <node ref="RPG1" pin="2" pintype="passive"/>
+    </net>
+    <net code="31" name="REQ_GROUP" class="Default">
+      <node ref="JCTRL1" pin="1" pinfunction="Pin_1_1" pintype="passive"/>
+      <node ref="RG1" pin="1" pintype="passive"/>
+      <node ref="RG2" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="REQ_K7" class="Default">
+      <node ref="JCTRL1" pin="2" pinfunction="Pin_2_2" pintype="passive"/>
+      <node ref="RG3" pin="1" pintype="passive"/>
+    </net>
+    <net code="33" name="REQ_K8" class="Default">
+      <node ref="JCTRL1" pin="3" pinfunction="Pin_3_3" pintype="passive"/>
+      <node ref="RG4" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="unconnected-(RLY3-Pad5)" class="Default">
+      <node ref="RLY3" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="35" name="unconnected-(RLY3-Pad6)" class="Default">
+      <node ref="RLY3" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="36" name="unconnected-(RLY3-Pad7)" class="Default">
+      <node ref="RLY3" pin="7" pintype="passive+no_connect"/>
+    </net>
+    <net code="37" name="unconnected-(RLY4-Pad5)" class="Default">
+      <node ref="RLY4" pin="5" pintype="passive+no_connect"/>
+    </net>
+    <net code="38" name="unconnected-(RLY4-Pad6)" class="Default">
+      <node ref="RLY4" pin="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="39" name="unconnected-(RLY4-Pad7)" class="Default">
+      <node ref="RLY4" pin="7" pintype="passive+no_connect"/>
+    </net>
+  </nets>
+</export>

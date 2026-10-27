@@ -1,0 +1,2206 @@
+[
+  {
+    "ref": "U1",
+    "value": "TPS3430WQDRCRQ1",
+    "role": "Independent window watchdog; fixed hardware settings",
+    "footprint": "Package_SON:VSON-10-1EP_3x3mm_P0.5mm_EP1.65x2.4mm",
+    "source": "https://www.ti.com/lit/ds/symlink/tps3430-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "VDD1",
+        "power_in",
+        "V3V3"
+      ],
+      [
+        "2",
+        "CWD",
+        "input",
+        "WD_CWD"
+      ],
+      [
+        "3",
+        "SET0",
+        "input",
+        "GND"
+      ],
+      [
+        "4",
+        "CRST",
+        "input",
+        "WD_CRST"
+      ],
+      [
+        "5",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "6",
+        "SET1",
+        "input",
+        "GND"
+      ],
+      [
+        "7",
+        "WDI",
+        "input",
+        "WDI"
+      ],
+      [
+        "8",
+        "WDO_N",
+        "open_collector",
+        "HEALTH_N"
+      ],
+      [
+        "9",
+        "NC",
+        "no_connect",
+        null
+      ],
+      [
+        "10",
+        "VDD2",
+        "power_in",
+        "V3V3"
+      ],
+      [
+        "11",
+        "EP",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 180.34,
+    "y": 59.69,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U2",
+    "value": "TPS3808G33QDBVRQ1",
+    "role": "3.3 V and ESP hardware reset supervisor",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "source": "https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "RESET_N",
+        "open_collector",
+        "HEALTH_N"
+      ],
+      [
+        "2",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "3",
+        "MR_N",
+        "input",
+        "ESP_RESET_N"
+      ],
+      [
+        "4",
+        "CT",
+        "input",
+        "PG33_CT"
+      ],
+      [
+        "5",
+        "SENSE",
+        "input",
+        "V3V3"
+      ],
+      [
+        "6",
+        "VDD",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 299.72,
+    "y": 59.69,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U3",
+    "value": "TPS3808G01QDBVRQ1",
+    "role": "5 V adjustable monitor supplied by isolated diode-OR of both rails",
+    "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+    "source": "https://www.ti.com/lit/ds/symlink/tps3808-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "RESET_N",
+        "open_collector",
+        "HEALTH_N"
+      ],
+      [
+        "2",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "3",
+        "MR_N",
+        "input",
+        "V_PG5_SUP"
+      ],
+      [
+        "4",
+        "CT",
+        "input",
+        "PG5_CT"
+      ],
+      [
+        "5",
+        "SENSE",
+        "input",
+        "V5_SENSE"
+      ],
+      [
+        "6",
+        "VDD",
+        "power_in",
+        "V_PG5_SUP"
+      ]
+    ],
+    "x": 420.37,
+    "y": 59.69,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "D1",
+    "value": "BAS70-05-7-F",
+    "role": "Low-leakage supply OR keeps 5 V monitor alive when either rail disappears",
+    "footprint": "Package_TO_SOT_SMD:SOT-23",
+    "source": "https://www.diodes.com/datasheet/download/BAS70.pdf",
+    "pins": [
+      [
+        "1",
+        "A1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "A2",
+        "passive",
+        "V5_SUP"
+      ],
+      [
+        "3",
+        "K1_K2",
+        "passive",
+        "V_PG5_SUP"
+      ]
+    ],
+    "x": 779.78,
+    "y": 59.69,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U4",
+    "value": "SN74LVC1G17QDCKRQ1",
+    "role": "Clean open-drain fault edges before ordinary logic",
+    "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "NC",
+        "no_connect",
+        null
+      ],
+      [
+        "2",
+        "A",
+        "input",
+        "HEALTH_N"
+      ],
+      [
+        "3",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "4",
+        "Y",
+        "output",
+        "HEALTH_OK"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 539.75,
+    "y": 59.69,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U5",
+    "value": "SN74LVC1G17QDCKRQ1",
+    "role": "Clean physical enable auxiliary-contact edges",
+    "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "NC",
+        "no_connect",
+        null
+      ],
+      [
+        "2",
+        "A",
+        "input",
+        "DEADMAN_RAW"
+      ],
+      [
+        "3",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "4",
+        "Y",
+        "output",
+        "DEADMAN_OK"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 660.4,
+    "y": 59.69,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U6",
+    "value": "SN74LVC2G14IDCKRQ1",
+    "role": "Invert WDI falling edges and debounce physical ARM",
+    "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc2g14-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "1A",
+        "input",
+        "WDI"
+      ],
+      [
+        "2",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "3",
+        "2A",
+        "input",
+        "ARM_RC"
+      ],
+      [
+        "4",
+        "2Y",
+        "output",
+        "ARM_CLK"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ],
+      [
+        "6",
+        "1Y",
+        "output",
+        "HB_CLK"
+      ]
+    ],
+    "x": 59.69,
+    "y": 149.86,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U7",
+    "value": "SN74LVC1G27DCKR",
+    "role": "All three relay requests must be LOW at ARM edge; catalog bench part",
+    "footprint": "Package_TO_SOT_SMD:SOT-363_SC-70-6",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g27.pdf",
+    "pins": [
+      [
+        "1",
+        "A",
+        "input",
+        "REQ_L"
+      ],
+      [
+        "2",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "3",
+        "B",
+        "input",
+        "REQ_7"
+      ],
+      [
+        "4",
+        "Y",
+        "output",
+        "ZERO_REQ"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ],
+      [
+        "6",
+        "C",
+        "input",
+        "REQ_8"
+      ]
+    ],
+    "x": 180.34,
+    "y": 149.86,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U8",
+    "value": "SN74LVC1G08QDCKRQ1",
+    "role": "Combine rail/watchdog health and firmware READY",
+    "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "A",
+        "input",
+        "HEALTH_OK"
+      ],
+      [
+        "2",
+        "B",
+        "input",
+        "READY"
+      ],
+      [
+        "3",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "4",
+        "Y",
+        "output",
+        "HEALTH_READY"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 299.72,
+    "y": 149.86,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U9",
+    "value": "SN74LVC1G08QDCKRQ1",
+    "role": "Async clear source includes physical held enable",
+    "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "A",
+        "input",
+        "HEALTH_READY"
+      ],
+      [
+        "2",
+        "B",
+        "input",
+        "DEADMAN_OK"
+      ],
+      [
+        "3",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "4",
+        "Y",
+        "output",
+        "QUALIFIED"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 420.37,
+    "y": 149.86,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U10",
+    "value": "SN74LVC74AQPWRG4Q1",
+    "role": "Two WDI falling edges after READY/enable; one full inter-edge cycle",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc74a-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "1CLR_N",
+        "input",
+        "QUALIFIED"
+      ],
+      [
+        "2",
+        "1D",
+        "input",
+        "V3V3"
+      ],
+      [
+        "3",
+        "1CLK",
+        "input",
+        "HB_CLK"
+      ],
+      [
+        "4",
+        "1PRE_N",
+        "input",
+        "V3V3"
+      ],
+      [
+        "5",
+        "1Q",
+        "output",
+        "HB_ONE"
+      ],
+      [
+        "6",
+        "1Q_N",
+        "output",
+        null
+      ],
+      [
+        "7",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "8",
+        "2Q_N",
+        "output",
+        null
+      ],
+      [
+        "9",
+        "2Q",
+        "output",
+        "HB_GOOD"
+      ],
+      [
+        "10",
+        "2PRE_N",
+        "input",
+        "V3V3"
+      ],
+      [
+        "11",
+        "2CLK",
+        "input",
+        "HB_CLK"
+      ],
+      [
+        "12",
+        "2D",
+        "input",
+        "HB_ONE_SAFE"
+      ],
+      [
+        "13",
+        "2CLR_N",
+        "input",
+        "QUALIFIED"
+      ],
+      [
+        "14",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 539.75,
+    "y": 149.86,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U11",
+    "value": "SN74LVC74AQPWRG4Q1",
+    "role": "Manual ARM edge latch; faults clear without automatic restart",
+    "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc74a-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "1CLR_N",
+        "input",
+        "QUALIFIED"
+      ],
+      [
+        "2",
+        "1D",
+        "input",
+        "ARM_D"
+      ],
+      [
+        "3",
+        "1CLK",
+        "input",
+        "ARM_CLK"
+      ],
+      [
+        "4",
+        "1PRE_N",
+        "input",
+        "V3V3"
+      ],
+      [
+        "5",
+        "1Q",
+        "output",
+        "ARMED"
+      ],
+      [
+        "6",
+        "1Q_N",
+        "output",
+        null
+      ],
+      [
+        "7",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "8",
+        "2Q_N",
+        "output",
+        null
+      ],
+      [
+        "9",
+        "2Q",
+        "output",
+        null
+      ],
+      [
+        "10",
+        "2PRE_N",
+        "input",
+        "V3V3"
+      ],
+      [
+        "11",
+        "2CLK",
+        "input",
+        "GND"
+      ],
+      [
+        "12",
+        "2D",
+        "input",
+        "GND"
+      ],
+      [
+        "13",
+        "2CLR_N",
+        "input",
+        "GND"
+      ],
+      [
+        "14",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 660.4,
+    "y": 149.86,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U12",
+    "value": "SN74LVC1G08QDCKRQ1",
+    "role": "ARM edge accepted only after heartbeat cycle and zero requests",
+    "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "A",
+        "input",
+        "HB_GOOD"
+      ],
+      [
+        "2",
+        "B",
+        "input",
+        "ZERO_REQ"
+      ],
+      [
+        "3",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "4",
+        "Y",
+        "output",
+        "ARM_D"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 59.69,
+    "y": 240.03,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U13",
+    "value": "SN74LVC1G08QDCKRQ1",
+    "role": "3.3 V lightly loaded permission driver; output is for carrier gate only",
+    "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g08-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "A",
+        "input",
+        "ARMED"
+      ],
+      [
+        "2",
+        "B",
+        "input",
+        "QUALIFIED"
+      ],
+      [
+        "3",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "4",
+        "Y",
+        "output",
+        "PERMIT_DRIVER"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 180.34,
+    "y": 240.03,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "U14",
+    "value": "SN74LVC1G17QDCKRQ1",
+    "role": "Buffered HB_ONE delay provides positive same-clock DFF hold margin",
+    "footprint": "Package_TO_SOT_SMD:SOT-353_SC-70-5",
+    "source": "https://www.ti.com/lit/ds/symlink/sn74lvc1g17-q1.pdf",
+    "pins": [
+      [
+        "1",
+        "NC",
+        "no_connect",
+        null
+      ],
+      [
+        "2",
+        "A",
+        "input",
+        "HB_STAGE_RC"
+      ],
+      [
+        "3",
+        "GND",
+        "power_in",
+        "GND"
+      ],
+      [
+        "4",
+        "Y",
+        "output",
+        "HB_ONE_SAFE"
+      ],
+      [
+        "5",
+        "VCC",
+        "power_in",
+        "V3V3"
+      ]
+    ],
+    "x": 779.78,
+    "y": 240.03,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "J1",
+    "value": "BENCH_1x08",
+    "role": "ESP interface: shared 3.3 V rail, no GPIO mapping assumed",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x08_P2.54mm_Vertical",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "GND",
+        "passive",
+        "GND"
+      ],
+      [
+        "2",
+        "V3V3",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "3",
+        "ESP_RESET_HEADER",
+        "passive",
+        "ESP_RESET_HEADER"
+      ],
+      [
+        "4",
+        "WDI_HEADER",
+        "passive",
+        "WDI_HEADER"
+      ],
+      [
+        "5",
+        "READY_HEADER",
+        "passive",
+        "READY_HEADER"
+      ],
+      [
+        "6",
+        "REQ_L",
+        "passive",
+        "REQ_L"
+      ],
+      [
+        "7",
+        "REQ_7",
+        "passive",
+        "REQ_7"
+      ],
+      [
+        "8",
+        "REQ_8",
+        "passive",
+        "REQ_8"
+      ]
+    ],
+    "x": 59.69,
+    "y": 59.69,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "J2",
+    "value": "BENCH_1x02",
+    "role": "Protected regulated bench 5 V upstream rail",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "V5_SUP",
+        "passive",
+        "V5_SUP"
+      ],
+      [
+        "2",
+        "GND",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 299.72,
+    "y": 240.03,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "J3",
+    "value": "BENCH_1x04",
+    "role": "External held enable: pole A 1-2 physically cuts coil feed; pole B 3-4 reports enable",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "V5_SUP",
+        "passive",
+        "V5_SUP"
+      ],
+      [
+        "2",
+        "V5_COIL_SWITCHED",
+        "passive",
+        "V5_COIL_SWITCHED"
+      ],
+      [
+        "3",
+        "V3V3",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "4",
+        "DEADMAN_HEADER",
+        "passive",
+        "DEADMAN_HEADER"
+      ]
+    ],
+    "x": 420.37,
+    "y": 240.03,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "J4",
+    "value": "BENCH_1x02",
+    "role": "Physical normally-open ARM pushbutton shorts 1-2 only",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "ARM_SW",
+        "passive",
+        "ARM_SW"
+      ],
+      [
+        "2",
+        "GND",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 539.75,
+    "y": 240.03,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "J5",
+    "value": "BENCH_1x07",
+    "role": "Relay board interface; physical coil feed and returned carrier 5 V continuity sense",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "GND",
+        "passive",
+        "GND"
+      ],
+      [
+        "2",
+        "V5_COIL_SWITCHED",
+        "passive",
+        "V5_COIL_SWITCHED"
+      ],
+      [
+        "3",
+        "COIL_PERMIT",
+        "passive",
+        "COIL_PERMIT"
+      ],
+      [
+        "4",
+        "REQ_L",
+        "passive",
+        "REQ_L"
+      ],
+      [
+        "5",
+        "REQ_7",
+        "passive",
+        "REQ_7"
+      ],
+      [
+        "6",
+        "REQ_8",
+        "passive",
+        "REQ_8"
+      ],
+      [
+        "7",
+        "CARRIER_5V_FEEDBACK",
+        "passive",
+        "CARRIER_5V_FEEDBACK"
+      ]
+    ],
+    "x": 660.4,
+    "y": 240.03,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "J6",
+    "value": "BENCH_1x06",
+    "role": "3.3 V test/status points only",
+    "footprint": "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "GND",
+        "passive",
+        "GND"
+      ],
+      [
+        "2",
+        "HEALTH_OK",
+        "passive",
+        "HEALTH_OK"
+      ],
+      [
+        "3",
+        "QUALIFIED",
+        "passive",
+        "QUALIFIED"
+      ],
+      [
+        "4",
+        "HB_GOOD",
+        "passive",
+        "HB_GOOD"
+      ],
+      [
+        "5",
+        "ARMED",
+        "passive",
+        "ARMED"
+      ],
+      [
+        "6",
+        "ZERO_REQ",
+        "passive",
+        "ZERO_REQ"
+      ]
+    ],
+    "x": 779.78,
+    "y": 149.86,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R1",
+    "value": "10k 1%",
+    "role": "Watchdog fixed window setting",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "WD_CWD"
+      ]
+    ],
+    "x": 49.53,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R2",
+    "value": "10k 1%",
+    "role": "Watchdog fixed reset setting",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "WD_CRST"
+      ]
+    ],
+    "x": 127.0,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R3",
+    "value": "100k 1%",
+    "role": "300 ms nominal PG33 reset release",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "PG33_CT"
+      ]
+    ],
+    "x": 204.47,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R4",
+    "value": "100k 1%",
+    "role": "300 ms nominal PG5 reset release",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V_PG5_SUP"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "PG5_CT"
+      ]
+    ],
+    "x": 280.67,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R5",
+    "value": "10k 1%",
+    "role": "Shared open-drain health pull-up",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "HEALTH_N"
+      ]
+    ],
+    "x": 358.14,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R6",
+    "value": "100k 1%",
+    "role": "ARM default released; 100 ms nominal release RC",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "ARM_RC"
+      ]
+    ],
+    "x": 435.61,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R7",
+    "value": "1k 1%",
+    "role": "ARM press current/RC limit",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "ARM_RC"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "ARM_SW"
+      ]
+    ],
+    "x": 511.81,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R8",
+    "value": "10k 1%",
+    "role": "Disconnected enable defaults LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "DEADMAN_RAW"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 589.28,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R9",
+    "value": "10k 1%",
+    "role": "READY defaults LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "READY"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 665.48,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R10",
+    "value": "10k 1%",
+    "role": "WDI defaults LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "WDI"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 742.95,
+    "y": 320.04,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R11",
+    "value": "10k 1%",
+    "role": "Relay request default LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "REQ_L"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 49.53,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R12",
+    "value": "10k 1%",
+    "role": "Relay request default LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "REQ_7"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 127.0,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R13",
+    "value": "10k 1%",
+    "role": "Relay request default LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "REQ_8"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 204.47,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R14",
+    "value": "100 1%",
+    "role": "Short local WDI wire series damping",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "WDI_HEADER"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "WDI"
+      ]
+    ],
+    "x": 280.67,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R15",
+    "value": "100 1%",
+    "role": "Short local READY wire series damping",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "READY_HEADER"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "READY"
+      ]
+    ],
+    "x": 358.14,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R16",
+    "value": "1k 1%",
+    "role": "ESP hardware reset input current limit",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "ESP_RESET_HEADER"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "ESP_RESET_N"
+      ]
+    ],
+    "x": 435.61,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R17",
+    "value": "100 1%",
+    "role": "Physical enable sense series damping",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "DEADMAN_HEADER"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "DEADMAN_RAW"
+      ]
+    ],
+    "x": 511.81,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R18",
+    "value": "1k 1%",
+    "role": "Permit initial MOS gate-current limit and series damping",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "PERMIT_DRIVER"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "COIL_PERMIT"
+      ]
+    ],
+    "x": 589.28,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R19",
+    "value": "82k 1%",
+    "role": "Light permission load; parallel carrier 82k provides passive LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "COIL_PERMIT"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 665.48,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R20",
+    "value": "10k 1%",
+    "role": "Permit-gate ARMED input passive LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "ARMED"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 742.95,
+    "y": 367.03000000000003,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R21",
+    "value": "10k 1%",
+    "role": "Permit-gate QUALIFIED input passive LOW",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "QUALIFIED"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 49.53,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R22",
+    "value": "100k 0.1%",
+    "role": "Returned carrier 5 V divider upper resistor; ~4.655 V threshold",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "CARRIER_5V_FEEDBACK"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "V5_SENSE"
+      ]
+    ],
+    "x": 127.0,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R23",
+    "value": "9.53k 0.1%",
+    "role": "5 V monitor divider lower resistor",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V5_SENSE"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 204.47,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "R24",
+    "value": "1k 1%",
+    "role": "Heartbeat stage hold-time margin delay",
+    "footprint": "Resistor_SMD:R_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "HB_ONE"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "HB_STAGE_RC"
+      ]
+    ],
+    "x": 280.67,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C1",
+    "value": "100nF X7R 10V",
+    "role": "Place at U1 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 358.14,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C2",
+    "value": "100nF X7R 10V",
+    "role": "Place at U2 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 435.61,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C3",
+    "value": "100nF X7R 10V",
+    "role": "Place at U3 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V_PG5_SUP"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 511.81,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C4",
+    "value": "100nF X7R 10V",
+    "role": "Place at U4 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 589.28,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C5",
+    "value": "100nF X7R 10V",
+    "role": "Place at U5 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 665.48,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C6",
+    "value": "100nF X7R 10V",
+    "role": "Place at U6 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 742.95,
+    "y": 414.02,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C7",
+    "value": "100nF X7R 10V",
+    "role": "Place at U7 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 49.53,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C8",
+    "value": "100nF X7R 10V",
+    "role": "Place at U8 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 127.0,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C9",
+    "value": "100nF X7R 10V",
+    "role": "Place at U9 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 204.47,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C10",
+    "value": "100nF X7R 10V",
+    "role": "Place at U10 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 280.67,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C11",
+    "value": "100nF X7R 10V",
+    "role": "Place at U11 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 358.14,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C12",
+    "value": "100nF X7R 10V",
+    "role": "Place at U12 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 435.61,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C13",
+    "value": "100nF X7R 10V",
+    "role": "Place at U13 supply pin(s)",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 511.81,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C14",
+    "value": "1uF X7R 10V",
+    "role": "ARM debounce capacitor; verify contact bounce on bench",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "ARM_RC"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 589.28,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C15",
+    "value": "1uF X7R 10V",
+    "role": "Local 3.3 V decoupling; no hold-up promise",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 665.48,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C16",
+    "value": "1uF X7R 10V",
+    "role": "Upstream 5 V local decoupling; not downstream of enable switch",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V5_SUP"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 742.95,
+    "y": 461.01,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C17",
+    "value": "1nF C0G 10V",
+    "role": "5 V SENSE divider noise filter; ~8.7 us nominal RC",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V5_SENSE"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 49.53,
+    "y": 508.0,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C18",
+    "value": "100pF C0G 5% 10V",
+    "role": "Heartbeat stage delay; ~100 ns nominal RC before Schmitt buffer",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "HB_STAGE_RC"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 127.0,
+    "y": 508.0,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "C19",
+    "value": "100nF X7R 10V",
+    "role": "Place at U14 supply pin",
+    "footprint": "Capacitor_SMD:C_0603_1608Metric",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "1",
+        "passive",
+        "V3V3"
+      ],
+      [
+        "2",
+        "2",
+        "passive",
+        "GND"
+      ]
+    ],
+    "x": 204.47,
+    "y": 508.0,
+    "board": true,
+    "bom": true
+  },
+  {
+    "ref": "#PWR1",
+    "value": "EXTERNAL_SUPPLY_FLAG",
+    "role": "Bench externally driven V3V3",
+    "footprint": "",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "PWR",
+        "power_out",
+        "V3V3"
+      ]
+    ],
+    "x": 59.69,
+    "y": 549.91,
+    "board": false,
+    "bom": false
+  },
+  {
+    "ref": "#PWR2",
+    "value": "EXTERNAL_SUPPLY_FLAG",
+    "role": "Bench externally driven V5_SUP",
+    "footprint": "",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "PWR",
+        "power_out",
+        "V5_SUP"
+      ]
+    ],
+    "x": 180.34,
+    "y": 549.91,
+    "board": false,
+    "bom": false
+  },
+  {
+    "ref": "#PWR3",
+    "value": "EXTERNAL_SUPPLY_FLAG",
+    "role": "Bench externally driven GND",
+    "footprint": "",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "PWR",
+        "power_out",
+        "GND"
+      ]
+    ],
+    "x": 299.72,
+    "y": 549.91,
+    "board": false,
+    "bom": false
+  },
+  {
+    "ref": "#PWR4",
+    "value": "EXTERNAL_SUPPLY_FLAG",
+    "role": "Bench externally driven V_PG5_SUP",
+    "footprint": "",
+    "source": "",
+    "pins": [
+      [
+        "1",
+        "PWR",
+        "power_out",
+        "V_PG5_SUP"
+      ]
+    ],
+    "x": 420.37,
+    "y": 549.91,
+    "board": false,
+    "bom": false
+  }
+]

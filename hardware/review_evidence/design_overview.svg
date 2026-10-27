@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="1440" height="970" viewBox="0 0 1440 970">
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0L9 4.5L0 9Z" fill="#435c75"/></marker>
+    <style>
+      text{font-family:Arial,sans-serif;fill:#18324a} .title{font-size:34px;font-weight:700} .head{font-size:25px;font-weight:700} .body{font-size:20px} .small{font-size:17px} .mono{font-family:Menlo,monospace;font-size:17px} .box{fill:#fff;stroke:#b8cbdc;stroke-width:2} .wire{fill:none;stroke:#435c75;stroke-width:3;marker-end:url(#arrow)} .note{fill:#f0f5f9;stroke:#b8cbdc;stroke-width:1}
+    </style>
+  </defs>
+  <rect width="1440" height="970" fill="#f7fafc"/>
+  <text x="45" y="56" class="title">MiLa passive-bypass replacement · bench revision A</text>
+  <text x="45" y="91" class="body">Four nonlatching relays preserve six paths and three independent control groups.</text>
+  <rect x="45" y="116" width="1350" height="52" rx="9" fill="#e6f1ed"/>
+  <text x="66" y="150" class="body">Loss of coil energy → healthy contacts settle to NC/default without controller power.</text>
+
+  <rect x="45" y="200" width="555" height="295" rx="14" class="box"/>
+  <text x="70" y="237" class="head">Supervisor</text>
+  <text x="70" y="273" class="body">Shared 3.3 V + returned carrier 5 V monitors</text>
+  <text x="70" y="307" class="body">Hardware window watchdog · READY/reset</text>
+  <text x="70" y="341" class="body">Two qualified heartbeat edges</text>
+  <text x="70" y="375" class="body">Fresh physical ARM with requests LOW</text>
+  <text x="70" y="416" class="small">Recognized faults clear arm and heartbeat state.</text>
+  <text x="70" y="449" class="small">Physical held-enable opens the actual coil feed.</text>
+  <text x="70" y="475" class="small">3.3 V LVC permission remains independent of 5 V.</text>
+
+  <rect x="810" y="200" width="585" height="295" rx="14" class="box"/>
+  <text x="835" y="237" class="head">Passive contact carrier · 60 × 50 mm</text>
+  <text x="835" y="276" class="body">RLY1: K3/K4 · RLY2: K5/K6 · shared request</text>
+  <text x="835" y="312" class="body">RLY3: K7 · RLY4: K8 · independent requests</text>
+  <text x="835" y="352" class="body">Common high-side coil cutoff + four drivers</text>
+  <text x="835" y="394" class="small">Contact routes: connector → copper → Form-C pole</text>
+  <text x="835" y="430" class="small">No powered semiconductor taps on passive signals.</text>
+  <text x="835" y="469" class="small">K7/K8 default state has no confirmed vehicle meaning.</text>
+  <path d="M600 277H810" class="wire"/>
+  <text x="619" y="253" class="small">Requests + permit</text>
+  <path d="M600 350H810" class="wire"/>
+  <text x="625" y="332" class="small">Switched coil feed</text>
+  <path d="M810 421H600" class="wire"/>
+  <text x="621" y="455" class="small">Returned 5 V sense</text>
+
+  <rect x="45" y="526" width="635" height="267" rx="14" class="box"/>
+  <text x="70" y="562" class="head">Six exact contact paths</text>
+  <text x="70" y="597" class="mono">Path    COM       NC/default   NO/alternate</text>
+  <text x="70" y="630" class="mono">K3      J4-14     J4-13        J5-10</text>
+  <text x="70" y="656" class="mono">K4      J4-15     J4-12        J5-11</text>
+  <text x="70" y="682" class="mono">K5      J4-16     J4-11        J6-8</text>
+  <text x="70" y="708" class="mono">K6      J4-17     J4-10        J6-9</text>
+  <text x="70" y="734" class="mono">K7      J4-18     J4-9         J4-8</text>
+  <text x="70" y="760" class="mono">K8      J4-19     J4-8         J4-9</text>
+  <rect x="710" y="526" width="685" height="267" rx="14" class="box"/>
+  <text x="735" y="562" class="head">Interboard cable · match function</text>
+  <text x="735" y="597" class="mono">SUP J5-1 GND      → JPWR1-2 + JCTRL1-5</text>
+  <text x="735" y="624" class="mono">SUP J5-2 feed     → JPWR1-1</text>
+  <text x="735" y="651" class="mono">SUP J5-3 permit   → JCTRL1-4</text>
+  <text x="735" y="678" class="mono">SUP J5-4 GROUP    → JCTRL1-1</text>
+  <text x="735" y="705" class="mono">SUP J5-5 K7       → JCTRL1-2</text>
+  <text x="735" y="732" class="mono">SUP J5-6 K8       → JCTRL1-3</text>
+  <text x="735" y="759" class="mono">SUP J5-7 feedback → JCTRL1-6 (5V_RAW)</text>
+
+  <rect x="45" y="824" width="1350" height="112" rx="12" class="note"/>
+  <text x="65" y="856" class="body">Isolated simulators only: 0–5 V, ≤1 mA per signal; regulated bench power.</text>
+  <text x="65" y="885" class="small">Transfer delay, bounce, contact faults, partial-power behavior and output corruption require physical tests.</text>
+  <text x="65" y="914" class="small">Carrier feedback detects sustained connector loss; brief chatter and every single-wire fault are not covered.</text>
+</svg>
